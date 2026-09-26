@@ -1,0 +1,441 @@
+[
+  {
+    "id": "ek01",
+    "query": "Terraform",
+    "type": "exact_keyword",
+    "relevant": [
+      "conversation_03:turn_13"
+    ]
+  },
+  {
+    "id": "ek02",
+    "query": "PostgreSQL",
+    "type": "exact_keyword",
+    "relevant": [
+      "conversation_01:turn_11",
+      "conversation_03:turn_07",
+      "conversation_03:turn_09",
+      "conversation_05:turn_17"
+    ]
+  },
+  {
+    "id": "ek03",
+    "query": "SAFE note",
+    "type": "exact_keyword",
+    "relevant": [
+      "conversation_01:turn_08"
+    ]
+  },
+  {
+    "id": "ek04",
+    "query": "Kubernetes",
+    "type": "exact_keyword",
+    "relevant": [
+      "conversation_02:turn_22",
+      "conversation_02:turn_31",
+      "conversation_02:turn_34",
+      "conversation_03:turn_11",
+      "conversation_03:turn_13",
+      "conversation_03:turn_23",
+      "conversation_03:turn_27",
+      "conversation_04:turn_27",
+      "conversation_04:turn_28",
+      "conversation_04:turn_32"
+    ]
+  },
+  {
+    "id": "ek05",
+    "query": "ransomware",
+    "type": "exact_keyword",
+    "relevant": [
+      "conversation_02:turn_26"
+    ]
+  },
+  {
+    "id": "ek06",
+    "query": "hallucinations",
+    "type": "exact_keyword",
+    "relevant": [
+      "conversation_05:turn_05"
+    ]
+  },
+  {
+    "id": "mw01",
+    "query": "zero trust architecture",
+    "type": "multi_word",
+    "relevant": [
+      "conversation_02:turn_06",
+      "conversation_02:turn_09",
+      "conversation_02:turn_32"
+    ]
+  },
+  {
+    "id": "mw02",
+    "query": "lift and shift",
+    "type": "multi_word",
+    "relevant": [
+      "conversation_03:turn_06",
+      "conversation_03:turn_07",
+      "conversation_03:turn_10",
+      "conversation_03:turn_31",
+      "conversation_03:turn_33"
+    ]
+  },
+  {
+    "id": "mw03",
+    "query": "retrieval augmented generation",
+    "type": "multi_word",
+    "relevant": [
+      "conversation_05:turn_13",
+      "conversation_05:turn_15"
+    ]
+  },
+  {
+    "id": "mw04",
+    "query": "structured interviews with scorecards",
+    "type": "multi_word",
+    "relevant": [
+      "conversation_04:turn_16",
+      "conversation_04:turn_17",
+      "conversation_04:turn_32"
+    ]
+  },
+  {
+    "id": "mw05",
+    "query": "net revenue retention",
+    "type": "multi_word",
+    "relevant": [
+      "conversation_01:turn_19"
+    ]
+  },
+  {
+    "id": "mw06",
+    "query": "single sign-on",
+    "type": "multi_word",
+    "relevant": [
+      "conversation_06:turn_04",
+      "conversation_06:turn_25",
+      "conversation_06:turn_27",
+      "conversation_06:turn_31",
+      "conversation_06:turn_35"
+    ]
+  },
+  {
+    "id": "sy01",
+    "query": "customer attrition",
+    "type": "synonym",
+    "relevant": [
+      "conversation_06:turn_05",
+      "conversation_06:turn_06",
+      "conversation_06:turn_09",
+      "conversation_06:turn_30"
+    ]
+  },
+  {
+    "id": "sy02",
+    "query": "staff turnover during the migration",
+    "type": "synonym",
+    "relevant": [
+      "conversation_03:turn_27"
+    ]
+  },
+  {
+    "id": "sy03",
+    "query": "two-factor login",
+    "type": "synonym",
+    "relevant": [
+      "conversation_02:turn_12",
+      "conversation_02:turn_13"
+    ]
+  },
+  {
+    "id": "sy04",
+    "query": "pay ranges for remote employees",
+    "type": "synonym",
+    "relevant": [
+      "conversation_04:turn_29",
+      "conversation_04:turn_30"
+    ]
+  },
+  {
+    "id": "sy05",
+    "query": "chatbot making things up",
+    "type": "synonym",
+    "relevant": [
+      "conversation_05:turn_05"
+    ]
+  },
+  {
+    "id": "sy06",
+    "query": "recruitment firm fees",
+    "type": "synonym",
+    "relevant": [
+      "conversation_04:turn_20",
+      "conversation_04:turn_23"
+    ]
+  },
+  {
+    "id": "pa01",
+    "query": "How did they reduce cloud costs?",
+    "type": "paraphrase",
+    "relevant": [
+      "conversation_01:turn_13",
+      "conversation_03:turn_23",
+      "conversation_03:turn_25"
+    ]
+  },
+  {
+    "id": "pa02",
+    "query": "What did they say about moving infrastructure to the cloud?",
+    "type": "paraphrase",
+    "relevant": [
+      "conversation_03:turn_03",
+      "conversation_03:turn_06",
+      "conversation_05:turn_17"
+    ]
+  },
+  {
+    "id": "pa03",
+    "query": "Why were job candidates turning down offers?",
+    "type": "paraphrase",
+    "relevant": [
+      "conversation_04:turn_04",
+      "conversation_04:turn_06"
+    ]
+  },
+  {
+    "id": "pa04",
+    "query": "How long does it take to recover the database from backups?",
+    "type": "paraphrase",
+    "relevant": [
+      "conversation_02:turn_28",
+      "conversation_02:turn_29"
+    ]
+  },
+  {
+    "id": "pa05",
+    "query": "What happens if single sign-on is not ready in time?",
+    "type": "paraphrase",
+    "relevant": [
+      "conversation_06:turn_35"
+    ]
+  },
+  {
+    "id": "pa06",
+    "query": "How can the startup extend its runway without raising a bridge?",
+    "type": "paraphrase",
+    "relevant": [
+      "conversation_01:turn_09",
+      "conversation_01:turn_13"
+    ]
+  },
+  {
+    "id": "se01",
+    "query": "reducing infrastructure expenses",
+    "type": "semantic",
+    "relevant": [
+      "conversation_01:turn_13",
+      "conversation_03:turn_23",
+      "conversation_03:turn_25"
+    ]
+  },
+  {
+    "id": "se02",
+    "query": "protecting backups from attackers",
+    "type": "semantic",
+    "relevant": [
+      "conversation_02:turn_27"
+    ]
+  },
+  {
+    "id": "se03",
+    "query": "keeping sensitive personal data away from the AI provider",
+    "type": "semantic",
+    "relevant": [
+      "conversation_05:turn_19",
+      "conversation_05:turn_21"
+    ]
+  },
+  {
+    "id": "se04",
+    "query": "helping new users get started with the product",
+    "type": "semantic",
+    "relevant": [
+      "conversation_06:turn_11",
+      "conversation_06:turn_31"
+    ]
+  },
+  {
+    "id": "se05",
+    "query": "systems that must keep working without internet",
+    "type": "semantic",
+    "relevant": [
+      "conversation_03:turn_29"
+    ]
+  },
+  {
+    "id": "se06",
+    "query": "why customer surveys can be misleading",
+    "type": "semantic",
+    "relevant": [
+      "conversation_06:turn_13"
+    ]
+  },
+  {
+    "id": "sp01",
+    "query": "What did Sarah propose?",
+    "type": "speaker_specific",
+    "relevant": [
+      "conversation_02:turn_06",
+      "conversation_02:turn_32"
+    ]
+  },
+  {
+    "id": "sp02",
+    "query": "Why did David disagree with Sarah's plan?",
+    "type": "speaker_specific",
+    "relevant": [
+      "conversation_02:turn_07",
+      "conversation_02:turn_09"
+    ]
+  },
+  {
+    "id": "sp03",
+    "query": "What did Priya propose for the database?",
+    "type": "speaker_specific",
+    "relevant": [
+      "conversation_03:turn_07",
+      "conversation_03:turn_09"
+    ]
+  },
+  {
+    "id": "sp04",
+    "query": "What did Bob suggest Alice should do?",
+    "type": "speaker_specific",
+    "relevant": [
+      "conversation_01:turn_08",
+      "conversation_01:turn_32"
+    ]
+  },
+  {
+    "id": "sp05",
+    "query": "What did Mark disagree with?",
+    "type": "speaker_specific",
+    "relevant": [
+      "conversation_05:turn_05"
+    ]
+  },
+  {
+    "id": "sp06",
+    "query": "What did Emma propose about the take-home assignment?",
+    "type": "speaker_specific",
+    "relevant": [
+      "conversation_04:turn_08",
+      "conversation_04:turn_31"
+    ]
+  },
+  {
+    "id": "nu01",
+    "query": "What budget did they mention for the security keys?",
+    "type": "numeric",
+    "relevant": [
+      "conversation_02:turn_14"
+    ]
+  },
+  {
+    "id": "nu02",
+    "query": "How much did the hosting bill drop each month?",
+    "type": "numeric",
+    "relevant": [
+      "conversation_01:turn_13"
+    ]
+  },
+  {
+    "id": "nu03",
+    "query": "What is the monthly churn rate on paid plans?",
+    "type": "numeric",
+    "relevant": [
+      "conversation_06:turn_05"
+    ]
+  },
+  {
+    "id": "nu04",
+    "query": "How much does the AI assistant cost per conversation?",
+    "type": "numeric",
+    "relevant": [
+      "conversation_05:turn_17"
+    ]
+  },
+  {
+    "id": "nu05",
+    "query": "How large is the Series A and at what valuation?",
+    "type": "numeric",
+    "relevant": [
+      "conversation_01:turn_07",
+      "conversation_01:turn_26"
+    ]
+  },
+  {
+    "id": "nu06",
+    "query": "How many engineers do they need to hire, and by when?",
+    "type": "numeric",
+    "relevant": [
+      "conversation_04:turn_18",
+      "conversation_04:turn_33"
+    ]
+  },
+  {
+    "id": "co01",
+    "query": "What was the audit deadline they discussed earlier?",
+    "type": "conversational",
+    "relevant": [
+      "conversation_02:turn_19",
+      "conversation_02:turn_35"
+    ]
+  },
+  {
+    "id": "co02",
+    "query": "the lease deadline we talked about before",
+    "type": "conversational",
+    "relevant": [
+      "conversation_03:turn_03",
+      "conversation_03:turn_30"
+    ]
+  },
+  {
+    "id": "co03",
+    "query": "What was their main concern about launching the chatbot to everyone?",
+    "type": "conversational",
+    "relevant": [
+      "conversation_05:turn_05"
+    ]
+  },
+  {
+    "id": "co04",
+    "query": "When is the board meeting and what will they recommend?",
+    "type": "conversational",
+    "relevant": [
+      "conversation_05:turn_24",
+      "conversation_05:turn_25",
+      "conversation_05:turn_34"
+    ]
+  },
+  {
+    "id": "co05",
+    "query": "When is the launch they keep mentioning?",
+    "type": "conversational",
+    "relevant": [
+      "conversation_06:turn_24",
+      "conversation_06:turn_34"
+    ]
+  },
+  {
+    "id": "co06",
+    "query": "So what did they finally agree to ship for the conference?",
+    "type": "conversational",
+    "relevant": [
+      "conversation_06:turn_27",
+      "conversation_06:turn_31"
+    ]
+  }
+]

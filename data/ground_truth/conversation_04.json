@@ -1,0 +1,271 @@
+{
+  "conversation_id": "conversation_04",
+  "title": "People and Process: Fixing Our Engineering Hiring",
+  "topic": "hiring",
+  "audio_file": "data/audio/conversation_04.wav",
+  "speakers": [
+    "Emma",
+    "Daniel"
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "Emma",
+      "start_seconds": 0.0,
+      "end_seconds": 20.788,
+      "text": "Welcome to People and Process, the podcast about building teams that work. I'm Emma, and I lead talent acquisition at Brightline, a company that makes accounting software for small businesses. My guest today is Daniel, one of our engineering directors, and the hiring manager for most of our open roles this year. Daniel, welcome."
+    },
+    {
+      "index": 1,
+      "speaker": "Daniel",
+      "start_seconds": 21.788,
+      "end_seconds": 32.218,
+      "text": "Thanks, Emma. Given how much time we spend together in hiring meetings, it's funny that this is the first time we're talking about it publicly."
+    },
+    {
+      "index": 2,
+      "speaker": "Emma",
+      "start_seconds": 33.218,
+      "end_seconds": 52.457,
+      "text": "Let's start with the numbers, because they're the reason we're having this conversation. Our average time to hire for engineers is now fifty two days, from the first recruiter call to a signed offer. A year ago it was thirty eight days. And our offer acceptance rate has dropped from about eighty five percent to sixty two percent."
+    },
+    {
+      "index": 3,
+      "speaker": "Daniel",
+      "start_seconds": 53.457,
+      "end_seconds": 66.736,
+      "text": "Those numbers hurt. Especially the acceptance rate, because every declined offer means we've spent maybe fifteen hours of interviewer time on a candidate who goes somewhere else."
+    },
+    {
+      "index": 4,
+      "speaker": "Emma",
+      "start_seconds": 67.736,
+      "end_seconds": 80.733,
+      "text": "One quick fix there is speed. Right now it often takes a week to send a written offer after the final interview, and in that week candidates get other offers. I want us to commit to sending every offer within forty eight hours."
+    },
+    {
+      "index": 5,
+      "speaker": "Daniel",
+      "start_seconds": 81.733,
+      "end_seconds": 86.02,
+      "text": "That one is completely in our control. Let's do it."
+    },
+    {
+      "index": 6,
+      "speaker": "Emma",
+      "start_seconds": 87.02,
+      "end_seconds": 99.147,
+      "text": "When we asked the candidates who declined, the most common reason wasn't salary. It was the process. Several of them said it felt too long, and more than one specifically mentioned the take-home assignment."
+    },
+    {
+      "index": 7,
+      "speaker": "Daniel",
+      "start_seconds": 100.147,
+      "end_seconds": 102.193,
+      "text": "I know where this is going."
+    },
+    {
+      "index": 8,
+      "speaker": "Emma",
+      "start_seconds": 103.193,
+      "end_seconds": 130.956,
+      "text": "You do. My proposal is that we drop the take-home assignment entirely and replace it with a ninety minute live pairing session. The candidate works with one of our engineers on a realistic problem, they can ask questions, and it's done in one sitting. Right now the take-home says four hours, but candidates tell us they spend eight or ten, because they're afraid to submit anything less than perfect. Senior engineers with families and full time jobs simply won't do it."
+    },
+    {
+      "index": 9,
+      "speaker": "Daniel",
+      "start_seconds": 131.956,
+      "end_seconds": 157.81,
+      "text": "And here's where I disagree. The take-home is the most predictive part of our process. When I look back at the engineers we've hired in the last two years, the quality of their take-home correlates better with their first year performance than anything else we measure. A live session puts people under pressure, and some very good engineers freeze when someone is watching them type."
+    },
+    {
+      "index": 10,
+      "speaker": "Emma",
+      "start_seconds": 158.81,
+      "end_seconds": 172.814,
+      "text": "That's a fair point, and I don't want to lose good candidates who are nervous. But right now we're losing good candidates who never even submit the assignment. About forty percent of the people who receive the take-home drop out at that stage."
+    },
+    {
+      "index": 11,
+      "speaker": "Daniel",
+      "start_seconds": 173.814,
+      "end_seconds": 177.796,
+      "text": "Forty percent? I didn't know it was that high."
+    },
+    {
+      "index": 12,
+      "speaker": "Emma",
+      "start_seconds": 178.796,
+      "end_seconds": 183.026,
+      "text": "It's been climbing all year. So what would make you comfortable changing it?"
+    },
+    {
+      "index": 13,
+      "speaker": "Daniel",
+      "start_seconds": 184.026,
+      "end_seconds": 203.976,
+      "text": "What if we offer a choice? Candidates can either do a shorter take-home, capped at two hours with a smaller problem, or they can do the live pairing session. And we pay candidates for the take-home, maybe two hundred dollars, which signals that we respect their time."
+    },
+    {
+      "index": 14,
+      "speaker": "Emma",
+      "start_seconds": 204.976,
+      "end_seconds": 214.861,
+      "text": "I like the choice, and I really like paying for it. Let's run it as an experiment for the next quarter and compare the dropout rate and the hire quality between the two paths."
+    },
+    {
+      "index": 15,
+      "speaker": "Daniel",
+      "start_seconds": 215.861,
+      "end_seconds": 222.545,
+      "text": "Deal. But I want the same scorecard for both, so we're comparing the same things."
+    },
+    {
+      "index": 16,
+      "speaker": "Emma",
+      "start_seconds": 223.545,
+      "end_seconds": 245.09,
+      "text": "That brings me to structured interviews, which is the second big change. Right now each interviewer asks whatever they like and writes free text feedback. Then in the debrief, the loudest opinion tends to win. I want every interview to have defined questions and a scorecard with specific criteria, rated from one to four, and submitted before the debrief meeting."
+    },
+    {
+      "index": 17,
+      "speaker": "Daniel",
+      "start_seconds": 246.09,
+      "end_seconds": 266.536,
+      "text": "I fully support that. We've had debriefs where two interviewers who talked to the same person had completely different impressions, and there was no way to tell who was right. A scorecard also reduces bias, because we're judging against criteria we agreed on before we met the candidate."
+    },
+    {
+      "index": 18,
+      "speaker": "Emma",
+      "start_seconds": 267.536,
+      "end_seconds": 276.977,
+      "text": "Now let's talk about the target. We committed to the leadership team that we'll hire six engineers by October thirty first. So far we've hired two."
+    },
+    {
+      "index": 19,
+      "speaker": "Daniel",
+      "start_seconds": 277.977,
+      "end_seconds": 291.729,
+      "text": "Two of six, with about four months left. At our current pace of fifty two days per hire, and with interviewer capacity being the bottleneck, we won't make it without changing something."
+    },
+    {
+      "index": 20,
+      "speaker": "Emma",
+      "start_seconds": 292.729,
+      "end_seconds": 306.527,
+      "text": "Which is why the other lever is sourcing. We've been leaning heavily on recruiting agencies, and the agencies charge us twenty five percent of first year salary. For a senior engineer, that's more than forty thousand dollars per hire."
+    },
+    {
+      "index": 21,
+      "speaker": "Daniel",
+      "start_seconds": 307.527,
+      "end_seconds": 311.59,
+      "text": "That's more than I realized. What's the alternative?"
+    },
+    {
+      "index": 22,
+      "speaker": "Emma",
+      "start_seconds": 312.59,
+      "end_seconds": 330.308,
+      "text": "Referrals. Our referral hires stay longer and ramp up faster, and they cost much less. We currently pay a referral bonus of two thousand dollars. I'd like to raise it to five thousand for engineering roles, and pay it out in two halves, one at the start date and one after six months."
+    },
+    {
+      "index": 23,
+      "speaker": "Daniel",
+      "start_seconds": 331.308,
+      "end_seconds": 350.011,
+      "text": "Five thousand is still a fraction of an agency fee. I'd support that. I'd also like our engineers to be more involved in sourcing, like writing about our work publicly and speaking at meetups, so candidates already know us before a recruiter reaches out."
+    },
+    {
+      "index": 24,
+      "speaker": "Daniel",
+      "start_seconds": 351.011,
+      "end_seconds": 363.65,
+      "text": "There's another bottleneck we haven't mentioned. Only six people on my team are trained interviewers, so the same people do almost every interview, and they're exhausted."
+    },
+    {
+      "index": 25,
+      "speaker": "Emma",
+      "start_seconds": 364.65,
+      "end_seconds": 381.968,
+      "text": "Then let's train more. We can run a two hour interviewer training session every month, and have each new interviewer shadow two interviews and then be shadowed on two, before they interview alone. If we get to fifteen trained interviewers by the end of the summer, most of the scheduling delays go away."
+    },
+    {
+      "index": 26,
+      "speaker": "Daniel",
+      "start_seconds": 382.968,
+      "end_seconds": 392.423,
+      "text": "That also spreads the load more fairly. Right now it falls on the most senior engineers, which slows down their own projects."
+    },
+    {
+      "index": 27,
+      "speaker": "Emma",
+      "start_seconds": 393.423,
+      "end_seconds": 409.369,
+      "text": "One more thing I want to raise is the job descriptions. For the platform engineer role, the posting lists five years of Kubernetes experience as a requirement. That filter is removing a lot of candidates who have strong infrastructure backgrounds but used other tools."
+    },
+    {
+      "index": 28,
+      "speaker": "Daniel",
+      "start_seconds": 410.369,
+      "end_seconds": 429.136,
+      "text": "That's my fault. Honestly, someone who has run production systems well can learn Kubernetes in a couple of months. Let's move it to the nice to have section. What I really care about is how they debug a production incident, and how they communicate during one."
+    },
+    {
+      "index": 29,
+      "speaker": "Emma",
+      "start_seconds": 430.136,
+      "end_seconds": 450.039,
+      "text": "Perfect. And last, remote work. We've been remote first since twenty twenty, and candidates value that. But our salary bands are still based on the San Francisco market for everyone, which makes us expensive in some regions and not competitive in others. I'd like to review those bands before we make the next offers."
+    },
+    {
+      "index": 30,
+      "speaker": "Daniel",
+      "start_seconds": 451.039,
+      "end_seconds": 458.846,
+      "text": "Let's do that, but carefully. I don't want anyone on the current team to feel their pay is being cut."
+    },
+    {
+      "index": 31,
+      "speaker": "Emma",
+      "start_seconds": 459.846,
+      "end_seconds": 474.398,
+      "text": "Agreed, existing salaries won't go down. So let me summarize. I proposed dropping the take-home entirely. Daniel disagreed, and we landed on giving candidates a choice between a short paid take-home and a live pairing session."
+    },
+    {
+      "index": 32,
+      "speaker": "Daniel",
+      "start_seconds": 475.398,
+      "end_seconds": 486.516,
+      "text": "We're also adopting structured interviews with scorecards, raising the referral bonus to five thousand dollars, and relaxing the Kubernetes requirement."
+    },
+    {
+      "index": 33,
+      "speaker": "Emma",
+      "start_seconds": 487.516,
+      "end_seconds": 495.692,
+      "text": "And all of that is aimed at the target we set earlier, six engineers hired by the end of October. We'll check the numbers every two weeks."
+    },
+    {
+      "index": 34,
+      "speaker": "Daniel",
+      "start_seconds": 496.692,
+      "end_seconds": 501.683,
+      "text": "If we're at four hires by the end of August, I'll feel good about it."
+    },
+    {
+      "index": 35,
+      "speaker": "Emma",
+      "start_seconds": 502.683,
+      "end_seconds": 509.73,
+      "text": "Daniel, thank you. And to everyone listening, if you're an engineer who likes accounting software, we're hiring."
+    },
+    {
+      "index": 36,
+      "speaker": "Daniel",
+      "start_seconds": 510.73,
+      "end_seconds": 515.801,
+      "text": "Thanks, Emma. And I promise the take-home is shorter now."
+    }
+  ]
+}

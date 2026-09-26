@@ -1,0 +1,7704 @@
+{
+ "audio_id": "conversation_01",
+ "duration_seconds": 494.2095625,
+ "words": [
+  {
+   "text": "Welcome",
+   "start_seconds": 0.0,
+   "end_seconds": 0.26,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "back",
+   "start_seconds": 0.26,
+   "end_seconds": 0.72,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "to",
+   "start_seconds": 0.72,
+   "end_seconds": 1.06,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "Founder",
+   "start_seconds": 1.06,
+   "end_seconds": 1.48,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "Notes.",
+   "start_seconds": 1.48,
+   "end_seconds": 1.84,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "I'm",
+   "start_seconds": 2.62,
+   "end_seconds": 2.82,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "Bob,",
+   "start_seconds": 2.82,
+   "end_seconds": 3.14,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "and",
+   "start_seconds": 3.6,
+   "end_seconds": 3.7,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "today",
+   "start_seconds": 3.7,
+   "end_seconds": 4.12,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "I'm",
+   "start_seconds": 4.12,
+   "end_seconds": 4.4,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "talking",
+   "start_seconds": 4.4,
+   "end_seconds": 4.8,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "with",
+   "start_seconds": 4.8,
+   "end_seconds": 5.24,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "Alice,",
+   "start_seconds": 5.24,
+   "end_seconds": 5.56,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "the",
+   "start_seconds": 5.92,
+   "end_seconds": 6.06,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "co",
+   "start_seconds": 6.06,
+   "end_seconds": 6.4,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "-founder",
+   "start_seconds": 6.4,
+   "end_seconds": 6.7,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "and",
+   "start_seconds": 6.7,
+   "end_seconds": 7.16,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "CEO",
+   "start_seconds": 7.16,
+   "end_seconds": 7.56,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "of",
+   "start_seconds": 7.56,
+   "end_seconds": 8.04,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "Rootwise,",
+   "start_seconds": 8.04,
+   "end_seconds": 8.48,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "a",
+   "start_seconds": 8.84,
+   "end_seconds": 9.02,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "startup",
+   "start_seconds": 9.02,
+   "end_seconds": 9.36,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "that",
+   "start_seconds": 9.36,
+   "end_seconds": 9.78,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "builds",
+   "start_seconds": 9.78,
+   "end_seconds": 10.14,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "root",
+   "start_seconds": 10.14,
+   "end_seconds": 10.44,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "planning",
+   "start_seconds": 10.44,
+   "end_seconds": 10.94,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "software",
+   "start_seconds": 10.94,
+   "end_seconds": 11.44,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "for",
+   "start_seconds": 11.44,
+   "end_seconds": 11.98,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "regional",
+   "start_seconds": 11.98,
+   "end_seconds": 12.48,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "delivery",
+   "start_seconds": 12.48,
+   "end_seconds": 13.0,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "companies.",
+   "start_seconds": 13.0,
+   "end_seconds": 13.9,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "Alice,",
+   "start_seconds": 14.64,
+   "end_seconds": 14.76,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "thanks",
+   "start_seconds": 15.18,
+   "end_seconds": 15.48,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "for",
+   "start_seconds": 15.48,
+   "end_seconds": 15.86,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "coming",
+   "start_seconds": 15.86,
+   "end_seconds": 16.28,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "on.",
+   "start_seconds": 16.28,
+   "end_seconds": 17.06,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "Thanks",
+   "start_seconds": 18.16,
+   "end_seconds": 18.44,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "for",
+   "start_seconds": 18.44,
+   "end_seconds": 18.68,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "having",
+   "start_seconds": 18.68,
+   "end_seconds": 18.94,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "me,",
+   "start_seconds": 18.94,
+   "end_seconds": 19.36,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Bob.",
+   "start_seconds": 19.58,
+   "end_seconds": 19.82,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "I've",
+   "start_seconds": 20.16,
+   "end_seconds": 20.32,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "listened",
+   "start_seconds": 20.32,
+   "end_seconds": 20.62,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "to",
+   "start_seconds": 20.62,
+   "end_seconds": 20.82,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "the",
+   "start_seconds": 20.82,
+   "end_seconds": 20.96,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "show",
+   "start_seconds": 20.96,
+   "end_seconds": 21.12,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "for",
+   "start_seconds": 21.12,
+   "end_seconds": 21.32,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "years,",
+   "start_seconds": 21.32,
+   "end_seconds": 21.64,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "so",
+   "start_seconds": 21.72,
+   "end_seconds": 22.22,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "it's",
+   "start_seconds": 22.22,
+   "end_seconds": 22.48,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 22.48,
+   "end_seconds": 22.56,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "little",
+   "start_seconds": 22.56,
+   "end_seconds": 22.74,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "strange",
+   "start_seconds": 22.74,
+   "end_seconds": 23.12,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "to",
+   "start_seconds": 23.12,
+   "end_seconds": 23.38,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "be",
+   "start_seconds": 23.38,
+   "end_seconds": 23.52,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "on",
+   "start_seconds": 23.52,
+   "end_seconds": 23.66,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "this",
+   "start_seconds": 23.66,
+   "end_seconds": 23.84,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "side",
+   "start_seconds": 23.84,
+   "end_seconds": 24.08,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "of",
+   "start_seconds": 24.08,
+   "end_seconds": 24.22,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "the",
+   "start_seconds": 24.22,
+   "end_seconds": 24.36,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "microphone.",
+   "start_seconds": 24.36,
+   "end_seconds": 24.94,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Let's",
+   "start_seconds": 25.94,
+   "end_seconds": 26.52,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "start",
+   "start_seconds": 26.52,
+   "end_seconds": 26.82,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "with",
+   "start_seconds": 26.82,
+   "end_seconds": 27.08,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "where",
+   "start_seconds": 27.08,
+   "end_seconds": 27.34,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "the",
+   "start_seconds": 27.34,
+   "end_seconds": 27.56,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "company",
+   "start_seconds": 27.56,
+   "end_seconds": 28.0,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "is",
+   "start_seconds": 28.0,
+   "end_seconds": 28.32,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "today.",
+   "start_seconds": 28.32,
+   "end_seconds": 28.78,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "You",
+   "start_seconds": 29.16,
+   "end_seconds": 29.48,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "raised",
+   "start_seconds": 29.48,
+   "end_seconds": 29.9,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "the",
+   "start_seconds": 29.9,
+   "end_seconds": 30.1,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "seed",
+   "start_seconds": 30.1,
+   "end_seconds": 30.38,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "round",
+   "start_seconds": 30.38,
+   "end_seconds": 30.78,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "about",
+   "start_seconds": 30.78,
+   "end_seconds": 31.18,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "18",
+   "start_seconds": 31.18,
+   "end_seconds": 31.74,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "months",
+   "start_seconds": 31.74,
+   "end_seconds": 32.12,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "ago.",
+   "start_seconds": 32.12,
+   "end_seconds": 32.64,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "How",
+   "start_seconds": 33.14,
+   "end_seconds": 33.48,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "much",
+   "start_seconds": 33.48,
+   "end_seconds": 33.72,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "did",
+   "start_seconds": 33.72,
+   "end_seconds": 33.98,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "you",
+   "start_seconds": 33.98,
+   "end_seconds": 34.18,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "raise,",
+   "start_seconds": 34.18,
+   "end_seconds": 34.58,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "and",
+   "start_seconds": 35.02,
+   "end_seconds": 35.08,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "what",
+   "start_seconds": 35.08,
+   "end_seconds": 35.3,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "has",
+   "start_seconds": 35.3,
+   "end_seconds": 35.46,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "happened",
+   "start_seconds": 35.46,
+   "end_seconds": 35.86,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "since?",
+   "start_seconds": 35.86,
+   "end_seconds": 36.4,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "We",
+   "start_seconds": 37.98,
+   "end_seconds": 38.1,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "raised",
+   "start_seconds": 38.1,
+   "end_seconds": 38.36,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 38.36,
+   "end_seconds": 38.52,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "$2",
+   "start_seconds": 38.52,
+   "end_seconds": 38.72,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "million",
+   "start_seconds": 38.72,
+   "end_seconds": 39.12,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "seed",
+   "start_seconds": 39.12,
+   "end_seconds": 39.7,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "round,",
+   "start_seconds": 39.7,
+   "end_seconds": 40.16,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "led",
+   "start_seconds": 40.4,
+   "end_seconds": 40.54,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "by",
+   "start_seconds": 40.54,
+   "end_seconds": 40.78,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 40.78,
+   "end_seconds": 40.94,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "small",
+   "start_seconds": 40.94,
+   "end_seconds": 41.2,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "fund",
+   "start_seconds": 41.2,
+   "end_seconds": 41.48,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "in",
+   "start_seconds": 41.48,
+   "end_seconds": 41.66,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Denver,",
+   "start_seconds": 41.66,
+   "end_seconds": 41.98,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "with",
+   "start_seconds": 42.28,
+   "end_seconds": 42.42,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 42.42,
+   "end_seconds": 42.58,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "few",
+   "start_seconds": 42.58,
+   "end_seconds": 42.78,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "angel",
+   "start_seconds": 42.78,
+   "end_seconds": 43.14,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "investors",
+   "start_seconds": 43.14,
+   "end_seconds": 43.56,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "from",
+   "start_seconds": 43.56,
+   "end_seconds": 43.88,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "the",
+   "start_seconds": 43.88,
+   "end_seconds": 44.04,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "logistics",
+   "start_seconds": 44.04,
+   "end_seconds": 44.48,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "industry.",
+   "start_seconds": 44.48,
+   "end_seconds": 45.16,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Since",
+   "start_seconds": 45.54,
+   "end_seconds": 45.72,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "then,",
+   "start_seconds": 45.72,
+   "end_seconds": 46.0,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "we've",
+   "start_seconds": 46.12,
+   "end_seconds": 46.26,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "grown",
+   "start_seconds": 46.26,
+   "end_seconds": 46.44,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "from",
+   "start_seconds": 46.44,
+   "end_seconds": 46.68,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "four",
+   "start_seconds": 46.68,
+   "end_seconds": 46.98,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "customers",
+   "start_seconds": 46.98,
+   "end_seconds": 47.4,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "to",
+   "start_seconds": 47.4,
+   "end_seconds": 47.74,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "31,",
+   "start_seconds": 47.74,
+   "end_seconds": 48.1,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "and",
+   "start_seconds": 48.48,
+   "end_seconds": 48.76,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "our",
+   "start_seconds": 48.76,
+   "end_seconds": 48.94,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "annual",
+   "start_seconds": 48.94,
+   "end_seconds": 49.34,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "recurring",
+   "start_seconds": 49.34,
+   "end_seconds": 49.82,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "revenue",
+   "start_seconds": 49.82,
+   "end_seconds": 50.22,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "just",
+   "start_seconds": 50.22,
+   "end_seconds": 50.54,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "crossed",
+   "start_seconds": 50.54,
+   "end_seconds": 50.86,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "$1",
+   "start_seconds": 50.86,
+   "end_seconds": 51.2,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": ".2",
+   "start_seconds": 51.2,
+   "end_seconds": 51.7,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "million.",
+   "start_seconds": 51.7,
+   "end_seconds": 52.0,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "The",
+   "start_seconds": 52.72,
+   "end_seconds": 53.0,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "team",
+   "start_seconds": 53.0,
+   "end_seconds": 53.2,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "is",
+   "start_seconds": 53.2,
+   "end_seconds": 53.36,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "now",
+   "start_seconds": 53.36,
+   "end_seconds": 53.6,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "14",
+   "start_seconds": 53.6,
+   "end_seconds": 54.04,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "people,",
+   "start_seconds": 54.04,
+   "end_seconds": 54.52,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "mostly",
+   "start_seconds": 54.8,
+   "end_seconds": 55.16,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "engineers.",
+   "start_seconds": 55.16,
+   "end_seconds": 55.68,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "That's",
+   "start_seconds": 56.8,
+   "end_seconds": 57.24,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "strong",
+   "start_seconds": 57.24,
+   "end_seconds": 57.66,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "growth.",
+   "start_seconds": 57.66,
+   "end_seconds": 58.08,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "But",
+   "start_seconds": 58.64,
+   "end_seconds": 58.92,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "I",
+   "start_seconds": 58.92,
+   "end_seconds": 59.08,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "know",
+   "start_seconds": 59.08,
+   "end_seconds": 59.34,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "from",
+   "start_seconds": 59.34,
+   "end_seconds": 59.6,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "our",
+   "start_seconds": 59.6,
+   "end_seconds": 59.82,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "earlier",
+   "start_seconds": 59.82,
+   "end_seconds": 60.2,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "conversations",
+   "start_seconds": 60.2,
+   "end_seconds": 61.12,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "that",
+   "start_seconds": 61.12,
+   "end_seconds": 61.68,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "runway",
+   "start_seconds": 61.68,
+   "end_seconds": 62.12,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "has",
+   "start_seconds": 62.12,
+   "end_seconds": 62.5,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "been",
+   "start_seconds": 62.5,
+   "end_seconds": 62.7,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "on",
+   "start_seconds": 62.7,
+   "end_seconds": 62.88,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "your",
+   "start_seconds": 62.88,
+   "end_seconds": 63.1,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "mind.",
+   "start_seconds": 63.1,
+   "end_seconds": 63.52,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "Where",
+   "start_seconds": 64.36,
+   "end_seconds": 64.48,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "do",
+   "start_seconds": 64.48,
+   "end_seconds": 64.74,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "you",
+   "start_seconds": 64.74,
+   "end_seconds": 64.9,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "stand?",
+   "start_seconds": 64.9,
+   "end_seconds": 65.38,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "Right",
+   "start_seconds": 67.2,
+   "end_seconds": 67.36,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "now",
+   "start_seconds": 67.36,
+   "end_seconds": 67.6,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "we",
+   "start_seconds": 67.6,
+   "end_seconds": 67.78,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "have",
+   "start_seconds": 67.78,
+   "end_seconds": 67.96,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "about",
+   "start_seconds": 67.96,
+   "end_seconds": 68.24,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "nine",
+   "start_seconds": 68.24,
+   "end_seconds": 68.52,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "months",
+   "start_seconds": 68.52,
+   "end_seconds": 68.76,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "of",
+   "start_seconds": 68.76,
+   "end_seconds": 68.96,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "runway",
+   "start_seconds": 68.96,
+   "end_seconds": 69.22,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "at",
+   "start_seconds": 69.22,
+   "end_seconds": 69.44,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "our",
+   "start_seconds": 69.44,
+   "end_seconds": 69.6,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "current",
+   "start_seconds": 69.6,
+   "end_seconds": 69.9,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "burn",
+   "start_seconds": 69.9,
+   "end_seconds": 70.12,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "rate.",
+   "start_seconds": 70.12,
+   "end_seconds": 70.5,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Our",
+   "start_seconds": 70.74,
+   "end_seconds": 70.9,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "monthly",
+   "start_seconds": 70.9,
+   "end_seconds": 71.26,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "burn",
+   "start_seconds": 71.26,
+   "end_seconds": 71.52,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "is",
+   "start_seconds": 71.52,
+   "end_seconds": 71.7,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "roughly",
+   "start_seconds": 71.7,
+   "end_seconds": 72.02,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "$140",
+   "start_seconds": 72.02,
+   "end_seconds": 73.02,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": ",000.",
+   "start_seconds": 73.02,
+   "end_seconds": 73.98,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Nine",
+   "start_seconds": 74.32,
+   "end_seconds": 74.64,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "months",
+   "start_seconds": 74.64,
+   "end_seconds": 74.88,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "sounds",
+   "start_seconds": 74.88,
+   "end_seconds": 75.2,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "like",
+   "start_seconds": 75.2,
+   "end_seconds": 75.48,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 75.48,
+   "end_seconds": 75.64,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "lot,",
+   "start_seconds": 75.64,
+   "end_seconds": 75.92,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "but",
+   "start_seconds": 76.08,
+   "end_seconds": 76.28,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 76.28,
+   "end_seconds": 76.48,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Series",
+   "start_seconds": 76.48,
+   "end_seconds": 76.68,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "A",
+   "start_seconds": 76.68,
+   "end_seconds": 76.94,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "process",
+   "start_seconds": 76.94,
+   "end_seconds": 77.24,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "can",
+   "start_seconds": 77.24,
+   "end_seconds": 77.64,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "easily",
+   "start_seconds": 77.64,
+   "end_seconds": 77.96,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "take",
+   "start_seconds": 77.96,
+   "end_seconds": 78.32,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "four",
+   "start_seconds": 78.32,
+   "end_seconds": 78.6,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "to",
+   "start_seconds": 78.6,
+   "end_seconds": 78.78,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "six",
+   "start_seconds": 78.78,
+   "end_seconds": 79.02,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "months.",
+   "start_seconds": 79.02,
+   "end_seconds": 79.52,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "So",
+   "start_seconds": 79.9,
+   "end_seconds": 80.1,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "realistically,",
+   "start_seconds": 80.1,
+   "end_seconds": 80.58,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "we",
+   "start_seconds": 80.58,
+   "end_seconds": 80.98,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "need",
+   "start_seconds": 80.98,
+   "end_seconds": 81.2,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "to",
+   "start_seconds": 81.2,
+   "end_seconds": 81.36,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "start",
+   "start_seconds": 81.36,
+   "end_seconds": 81.66,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "fundraising",
+   "start_seconds": 81.66,
+   "end_seconds": 82.08,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "this",
+   "start_seconds": 82.08,
+   "end_seconds": 82.46,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "quarter.",
+   "start_seconds": 82.46,
+   "end_seconds": 82.78,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "So",
+   "start_seconds": 83.82,
+   "end_seconds": 84.16,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "what",
+   "start_seconds": 84.16,
+   "end_seconds": 84.38,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "is",
+   "start_seconds": 84.38,
+   "end_seconds": 84.54,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "the",
+   "start_seconds": 84.54,
+   "end_seconds": 84.72,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "plan?",
+   "start_seconds": 84.72,
+   "end_seconds": 85.12,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "How",
+   "start_seconds": 85.76,
+   "end_seconds": 86.02,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "big",
+   "start_seconds": 86.02,
+   "end_seconds": 86.28,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "is",
+   "start_seconds": 86.28,
+   "end_seconds": 86.54,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "the",
+   "start_seconds": 86.54,
+   "end_seconds": 86.7,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "Series",
+   "start_seconds": 86.7,
+   "end_seconds": 87.12,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "A",
+   "start_seconds": 87.12,
+   "end_seconds": 87.4,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "you",
+   "start_seconds": 87.4,
+   "end_seconds": 87.58,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "are",
+   "start_seconds": 87.58,
+   "end_seconds": 87.78,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "targeting?",
+   "start_seconds": 87.78,
+   "end_seconds": 88.3,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "We're",
+   "start_seconds": 90.02,
+   "end_seconds": 90.18,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "aiming",
+   "start_seconds": 90.18,
+   "end_seconds": 90.36,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "for",
+   "start_seconds": 90.36,
+   "end_seconds": 90.66,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "$8",
+   "start_seconds": 90.66,
+   "end_seconds": 90.88,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "million.",
+   "start_seconds": 90.88,
+   "end_seconds": 91.28,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Our",
+   "start_seconds": 92.0,
+   "end_seconds": 92.2,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "lead",
+   "start_seconds": 92.2,
+   "end_seconds": 92.4,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "candidates",
+   "start_seconds": 92.4,
+   "end_seconds": 92.88,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "have",
+   "start_seconds": 92.88,
+   "end_seconds": 93.24,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "talked",
+   "start_seconds": 93.24,
+   "end_seconds": 93.52,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "about",
+   "start_seconds": 93.52,
+   "end_seconds": 93.84,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 93.84,
+   "end_seconds": 93.98,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "pre",
+   "start_seconds": 93.98,
+   "end_seconds": 94.12,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "-money",
+   "start_seconds": 94.12,
+   "end_seconds": 94.32,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "valuation",
+   "start_seconds": 94.32,
+   "end_seconds": 94.98,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "somewhere",
+   "start_seconds": 94.98,
+   "end_seconds": 95.5,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "around",
+   "start_seconds": 95.5,
+   "end_seconds": 95.86,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "$40",
+   "start_seconds": 95.86,
+   "end_seconds": 96.22,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "million,",
+   "start_seconds": 96.22,
+   "end_seconds": 96.48,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "but",
+   "start_seconds": 96.88,
+   "end_seconds": 97.08,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "nothing",
+   "start_seconds": 97.08,
+   "end_seconds": 97.38,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "is",
+   "start_seconds": 97.38,
+   "end_seconds": 97.6,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "signed.",
+   "start_seconds": 97.6,
+   "end_seconds": 97.94,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "We",
+   "start_seconds": 98.3,
+   "end_seconds": 98.4,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "don't",
+   "start_seconds": 98.4,
+   "end_seconds": 98.66,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "have",
+   "start_seconds": 98.66,
+   "end_seconds": 98.84,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 98.84,
+   "end_seconds": 99.0,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "term",
+   "start_seconds": 99.0,
+   "end_seconds": 99.2,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "sheet",
+   "start_seconds": 99.2,
+   "end_seconds": 99.46,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "yet,",
+   "start_seconds": 99.46,
+   "end_seconds": 99.82,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "and",
+   "start_seconds": 100.08,
+   "end_seconds": 100.24,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "I've",
+   "start_seconds": 100.24,
+   "end_seconds": 100.52,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "learned",
+   "start_seconds": 100.52,
+   "end_seconds": 100.7,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "not",
+   "start_seconds": 100.7,
+   "end_seconds": 100.94,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "to",
+   "start_seconds": 100.94,
+   "end_seconds": 101.16,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "count",
+   "start_seconds": 101.16,
+   "end_seconds": 101.36,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "on",
+   "start_seconds": 101.36,
+   "end_seconds": 101.56,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 101.56,
+   "end_seconds": 101.7,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "number",
+   "start_seconds": 101.7,
+   "end_seconds": 101.88,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "until",
+   "start_seconds": 101.88,
+   "end_seconds": 102.24,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "the",
+   "start_seconds": 102.24,
+   "end_seconds": 102.42,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "term",
+   "start_seconds": 102.42,
+   "end_seconds": 102.68,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "sheet",
+   "start_seconds": 102.68,
+   "end_seconds": 102.92,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "is",
+   "start_seconds": 102.92,
+   "end_seconds": 103.08,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "actually",
+   "start_seconds": 103.08,
+   "end_seconds": 103.54,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "in",
+   "start_seconds": 103.54,
+   "end_seconds": 103.82,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "my",
+   "start_seconds": 103.82,
+   "end_seconds": 104.0,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "inbox.",
+   "start_seconds": 104.0,
+   "end_seconds": 104.4,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Here",
+   "start_seconds": 105.64,
+   "end_seconds": 105.94,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "is",
+   "start_seconds": 105.94,
+   "end_seconds": 106.08,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "where",
+   "start_seconds": 106.08,
+   "end_seconds": 106.3,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "I",
+   "start_seconds": 106.3,
+   "end_seconds": 106.5,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "want",
+   "start_seconds": 106.5,
+   "end_seconds": 106.76,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "to",
+   "start_seconds": 106.76,
+   "end_seconds": 107.02,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "push",
+   "start_seconds": 107.02,
+   "end_seconds": 107.26,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "a",
+   "start_seconds": 107.26,
+   "end_seconds": 107.46,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "little.",
+   "start_seconds": 107.46,
+   "end_seconds": 107.72,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "My",
+   "start_seconds": 108.22,
+   "end_seconds": 108.48,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "proposal,",
+   "start_seconds": 108.48,
+   "end_seconds": 109.04,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "and",
+   "start_seconds": 109.44,
+   "end_seconds": 109.64,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "I",
+   "start_seconds": 109.64,
+   "end_seconds": 109.86,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "said",
+   "start_seconds": 109.86,
+   "end_seconds": 110.12,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "this",
+   "start_seconds": 110.12,
+   "end_seconds": 110.4,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "to",
+   "start_seconds": 110.4,
+   "end_seconds": 110.6,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "you",
+   "start_seconds": 110.6,
+   "end_seconds": 110.82,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "privately",
+   "start_seconds": 110.82,
+   "end_seconds": 111.22,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "last",
+   "start_seconds": 111.22,
+   "end_seconds": 111.76,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "month,",
+   "start_seconds": 111.76,
+   "end_seconds": 112.14,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "is",
+   "start_seconds": 112.14,
+   "end_seconds": 112.6,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "that",
+   "start_seconds": 112.6,
+   "end_seconds": 112.82,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "you",
+   "start_seconds": 112.82,
+   "end_seconds": 113.06,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "should",
+   "start_seconds": 113.06,
+   "end_seconds": 113.26,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "raise",
+   "start_seconds": 113.26,
+   "end_seconds": 113.68,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "a",
+   "start_seconds": 113.68,
+   "end_seconds": 113.9,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "bridge",
+   "start_seconds": 113.9,
+   "end_seconds": 114.1,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "round",
+   "start_seconds": 114.1,
+   "end_seconds": 114.48,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "from",
+   "start_seconds": 114.48,
+   "end_seconds": 114.82,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "your",
+   "start_seconds": 114.82,
+   "end_seconds": 115.04,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "existing",
+   "start_seconds": 115.04,
+   "end_seconds": 115.66,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "investors",
+   "start_seconds": 115.66,
+   "end_seconds": 116.36,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "before",
+   "start_seconds": 116.36,
+   "end_seconds": 116.86,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "you",
+   "start_seconds": 116.86,
+   "end_seconds": 117.12,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "go",
+   "start_seconds": 117.12,
+   "end_seconds": 117.34,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "out",
+   "start_seconds": 117.34,
+   "end_seconds": 117.6,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "for",
+   "start_seconds": 117.6,
+   "end_seconds": 117.84,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "the",
+   "start_seconds": 117.84,
+   "end_seconds": 118.06,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "Series",
+   "start_seconds": 118.06,
+   "end_seconds": 118.38,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "A",
+   "start_seconds": 118.38,
+   "end_seconds": 118.74,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "small",
+   "start_seconds": 118.74,
+   "end_seconds": 119.36,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "bridge.",
+   "start_seconds": 119.36,
+   "end_seconds": 119.88,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "Maybe",
+   "start_seconds": 120.66,
+   "end_seconds": 120.66,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "$750",
+   "start_seconds": 120.66,
+   "end_seconds": 121.66,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": ",000",
+   "start_seconds": 121.66,
+   "end_seconds": 123.36,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "on",
+   "start_seconds": 123.36,
+   "end_seconds": 123.66,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "a",
+   "start_seconds": 123.66,
+   "end_seconds": 123.86,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "safe",
+   "start_seconds": 123.86,
+   "end_seconds": 124.08,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "note",
+   "start_seconds": 124.08,
+   "end_seconds": 124.54,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "would",
+   "start_seconds": 124.54,
+   "end_seconds": 124.96,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "give",
+   "start_seconds": 124.96,
+   "end_seconds": 125.22,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "you",
+   "start_seconds": 125.22,
+   "end_seconds": 125.48,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "another",
+   "start_seconds": 125.48,
+   "end_seconds": 125.78,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "five",
+   "start_seconds": 125.78,
+   "end_seconds": 126.24,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "or",
+   "start_seconds": 126.24,
+   "end_seconds": 126.48,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "six",
+   "start_seconds": 126.48,
+   "end_seconds": 126.78,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "months",
+   "start_seconds": 126.78,
+   "end_seconds": 127.16,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "of",
+   "start_seconds": 127.16,
+   "end_seconds": 127.44,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "breathing",
+   "start_seconds": 127.44,
+   "end_seconds": 127.76,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "room.",
+   "start_seconds": 127.76,
+   "end_seconds": 128.32,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "You",
+   "start_seconds": 128.78,
+   "end_seconds": 129.0,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "would",
+   "start_seconds": 129.0,
+   "end_seconds": 129.2,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "negotiate",
+   "start_seconds": 129.2,
+   "end_seconds": 129.92,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "from",
+   "start_seconds": 129.92,
+   "end_seconds": 130.24,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "a",
+   "start_seconds": 130.24,
+   "end_seconds": 130.46,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "position",
+   "start_seconds": 130.46,
+   "end_seconds": 130.86,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "of",
+   "start_seconds": 130.86,
+   "end_seconds": 131.2,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "strength",
+   "start_seconds": 131.2,
+   "end_seconds": 131.64,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "instead",
+   "start_seconds": 131.64,
+   "end_seconds": 132.2,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "of",
+   "start_seconds": 132.2,
+   "end_seconds": 132.42,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "desperation.",
+   "start_seconds": 132.42,
+   "end_seconds": 133.1,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "And",
+   "start_seconds": 134.78,
+   "end_seconds": 135.06,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "I",
+   "start_seconds": 135.06,
+   "end_seconds": 135.24,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "still",
+   "start_seconds": 135.24,
+   "end_seconds": 135.5,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "disagree",
+   "start_seconds": 135.5,
+   "end_seconds": 135.98,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "with",
+   "start_seconds": 135.98,
+   "end_seconds": 136.22,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "that.",
+   "start_seconds": 136.22,
+   "end_seconds": 136.54,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Bob,",
+   "start_seconds": 136.8,
+   "end_seconds": 137.0,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 137.32,
+   "end_seconds": 137.46,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "bridge",
+   "start_seconds": 137.46,
+   "end_seconds": 137.68,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "round",
+   "start_seconds": 137.68,
+   "end_seconds": 137.94,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "sends",
+   "start_seconds": 137.94,
+   "end_seconds": 138.22,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 138.22,
+   "end_seconds": 138.48,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "signal.",
+   "start_seconds": 138.48,
+   "end_seconds": 138.78,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "When",
+   "start_seconds": 139.12,
+   "end_seconds": 139.28,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "new",
+   "start_seconds": 139.28,
+   "end_seconds": 139.5,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "investors",
+   "start_seconds": 139.5,
+   "end_seconds": 139.96,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "look",
+   "start_seconds": 139.96,
+   "end_seconds": 140.24,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "at",
+   "start_seconds": 140.24,
+   "end_seconds": 140.4,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "the",
+   "start_seconds": 140.4,
+   "end_seconds": 140.56,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "cap",
+   "start_seconds": 140.56,
+   "end_seconds": 140.74,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "table",
+   "start_seconds": 140.74,
+   "end_seconds": 141.08,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "and",
+   "start_seconds": 141.08,
+   "end_seconds": 141.3,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "see",
+   "start_seconds": 141.3,
+   "end_seconds": 141.52,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 141.52,
+   "end_seconds": 141.68,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "bridge",
+   "start_seconds": 141.68,
+   "end_seconds": 141.84,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "right",
+   "start_seconds": 141.84,
+   "end_seconds": 142.12,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "before",
+   "start_seconds": 142.12,
+   "end_seconds": 142.52,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "the",
+   "start_seconds": 142.52,
+   "end_seconds": 142.72,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Series",
+   "start_seconds": 142.72,
+   "end_seconds": 142.96,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "A,",
+   "start_seconds": 142.96,
+   "end_seconds": 143.34,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "the",
+   "start_seconds": 143.52,
+   "end_seconds": 143.72,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "first",
+   "start_seconds": 143.72,
+   "end_seconds": 143.98,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "question",
+   "start_seconds": 143.98,
+   "end_seconds": 144.46,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "they",
+   "start_seconds": 144.46,
+   "end_seconds": 144.66,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "ask",
+   "start_seconds": 144.66,
+   "end_seconds": 144.88,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "is",
+   "start_seconds": 144.88,
+   "end_seconds": 145.06,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "why",
+   "start_seconds": 145.06,
+   "end_seconds": 145.24,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "the",
+   "start_seconds": 145.24,
+   "end_seconds": 145.42,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "company",
+   "start_seconds": 145.42,
+   "end_seconds": 145.72,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "needed",
+   "start_seconds": 145.72,
+   "end_seconds": 146.1,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "extra",
+   "start_seconds": 146.1,
+   "end_seconds": 146.52,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "money.",
+   "start_seconds": 146.52,
+   "end_seconds": 146.8,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "It",
+   "start_seconds": 147.14,
+   "end_seconds": 147.24,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "can",
+   "start_seconds": 147.24,
+   "end_seconds": 147.44,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "look",
+   "start_seconds": 147.44,
+   "end_seconds": 147.66,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "like",
+   "start_seconds": 147.66,
+   "end_seconds": 147.9,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "we",
+   "start_seconds": 147.9,
+   "end_seconds": 148.08,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "missed",
+   "start_seconds": 148.08,
+   "end_seconds": 148.28,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "our",
+   "start_seconds": 148.28,
+   "end_seconds": 148.48,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "plan.",
+   "start_seconds": 148.48,
+   "end_seconds": 148.78,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "I'd",
+   "start_seconds": 149.14,
+   "end_seconds": 149.34,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "rather",
+   "start_seconds": 149.34,
+   "end_seconds": 149.56,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "extend",
+   "start_seconds": 149.56,
+   "end_seconds": 150.1,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "runway",
+   "start_seconds": 150.1,
+   "end_seconds": 150.4,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "by",
+   "start_seconds": 150.4,
+   "end_seconds": 150.72,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "cutting",
+   "start_seconds": 150.72,
+   "end_seconds": 150.98,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "our",
+   "start_seconds": 150.98,
+   "end_seconds": 151.22,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "own",
+   "start_seconds": 151.22,
+   "end_seconds": 151.44,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "costs.",
+   "start_seconds": 151.44,
+   "end_seconds": 151.96,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Cutting",
+   "start_seconds": 153.44,
+   "end_seconds": 153.44,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "costs",
+   "start_seconds": 153.44,
+   "end_seconds": 153.88,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "where,",
+   "start_seconds": 153.88,
+   "end_seconds": 154.34,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "though?",
+   "start_seconds": 154.54,
+   "end_seconds": 154.74,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "You",
+   "start_seconds": 155.18,
+   "end_seconds": 155.4,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "just",
+   "start_seconds": 155.4,
+   "end_seconds": 155.64,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "told",
+   "start_seconds": 155.64,
+   "end_seconds": 156.1,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "me",
+   "start_seconds": 156.1,
+   "end_seconds": 156.36,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "most",
+   "start_seconds": 156.36,
+   "end_seconds": 156.62,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "of",
+   "start_seconds": 156.62,
+   "end_seconds": 156.86,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "the",
+   "start_seconds": 156.86,
+   "end_seconds": 157.04,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "team",
+   "start_seconds": 157.04,
+   "end_seconds": 157.36,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "was",
+   "start_seconds": 157.36,
+   "end_seconds": 157.6,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "engineers.",
+   "start_seconds": 157.6,
+   "end_seconds": 158.1,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "You",
+   "start_seconds": 158.88,
+   "end_seconds": 159.1,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "don't",
+   "start_seconds": 159.1,
+   "end_seconds": 159.48,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "want",
+   "start_seconds": 159.48,
+   "end_seconds": 159.76,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "to",
+   "start_seconds": 159.76,
+   "end_seconds": 160.04,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "slow",
+   "start_seconds": 160.04,
+   "end_seconds": 160.32,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "down",
+   "start_seconds": 160.32,
+   "end_seconds": 160.64,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "the",
+   "start_seconds": 160.64,
+   "end_seconds": 160.9,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "product",
+   "start_seconds": 160.9,
+   "end_seconds": 161.32,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "right",
+   "start_seconds": 161.32,
+   "end_seconds": 161.72,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "before",
+   "start_seconds": 161.72,
+   "end_seconds": 162.26,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "a",
+   "start_seconds": 162.26,
+   "end_seconds": 162.54,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "raise.",
+   "start_seconds": 162.54,
+   "end_seconds": 162.78,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "No,",
+   "start_seconds": 164.08,
+   "end_seconds": 164.62,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "and",
+   "start_seconds": 164.9,
+   "end_seconds": 165.06,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "I'm",
+   "start_seconds": 165.06,
+   "end_seconds": 165.3,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "not",
+   "start_seconds": 165.3,
+   "end_seconds": 165.5,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "planning",
+   "start_seconds": 165.5,
+   "end_seconds": 165.8,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "to",
+   "start_seconds": 165.8,
+   "end_seconds": 166.06,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "cut",
+   "start_seconds": 166.06,
+   "end_seconds": 166.24,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "people.",
+   "start_seconds": 166.24,
+   "end_seconds": 166.66,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "The",
+   "start_seconds": 166.98,
+   "end_seconds": 167.08,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "biggest",
+   "start_seconds": 167.08,
+   "end_seconds": 167.36,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "line",
+   "start_seconds": 167.36,
+   "end_seconds": 167.68,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "item",
+   "start_seconds": 167.68,
+   "end_seconds": 167.96,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "after",
+   "start_seconds": 167.96,
+   "end_seconds": 168.36,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "payroll",
+   "start_seconds": 168.36,
+   "end_seconds": 168.76,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "is",
+   "start_seconds": 168.76,
+   "end_seconds": 168.96,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "our",
+   "start_seconds": 168.96,
+   "end_seconds": 169.12,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "hosting",
+   "start_seconds": 169.12,
+   "end_seconds": 169.48,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "bill.",
+   "start_seconds": 169.48,
+   "end_seconds": 169.78,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "When",
+   "start_seconds": 169.78,
+   "end_seconds": 170.22,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "we",
+   "start_seconds": 170.22,
+   "end_seconds": 170.4,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "started,",
+   "start_seconds": 170.4,
+   "end_seconds": 170.8,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "we",
+   "start_seconds": 171.22,
+   "end_seconds": 171.24,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "put",
+   "start_seconds": 171.24,
+   "end_seconds": 171.42,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "everything",
+   "start_seconds": 171.42,
+   "end_seconds": 171.78,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "on",
+   "start_seconds": 171.78,
+   "end_seconds": 172.06,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Amazon",
+   "start_seconds": 172.06,
+   "end_seconds": 172.46,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Web",
+   "start_seconds": 172.46,
+   "end_seconds": 172.78,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Services",
+   "start_seconds": 172.78,
+   "end_seconds": 173.2,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "with",
+   "start_seconds": 173.2,
+   "end_seconds": 173.54,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "no",
+   "start_seconds": 173.54,
+   "end_seconds": 173.76,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "real",
+   "start_seconds": 173.76,
+   "end_seconds": 174.02,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "planning.",
+   "start_seconds": 174.02,
+   "end_seconds": 174.38,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "We",
+   "start_seconds": 174.74,
+   "end_seconds": 174.88,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "had",
+   "start_seconds": 174.88,
+   "end_seconds": 175.06,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "oversized",
+   "start_seconds": 175.06,
+   "end_seconds": 175.56,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "servers",
+   "start_seconds": 175.56,
+   "end_seconds": 176.06,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "running",
+   "start_seconds": 176.06,
+   "end_seconds": 176.38,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "all",
+   "start_seconds": 176.38,
+   "end_seconds": 176.64,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "night,",
+   "start_seconds": 176.64,
+   "end_seconds": 176.94,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "test",
+   "start_seconds": 177.32,
+   "end_seconds": 177.5,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "environments",
+   "start_seconds": 177.5,
+   "end_seconds": 178.12,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "nobody",
+   "start_seconds": 178.12,
+   "end_seconds": 178.52,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "had",
+   "start_seconds": 178.52,
+   "end_seconds": 178.92,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "touched",
+   "start_seconds": 178.92,
+   "end_seconds": 179.16,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "in",
+   "start_seconds": 179.16,
+   "end_seconds": 179.44,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "months,",
+   "start_seconds": 179.44,
+   "end_seconds": 179.84,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "and",
+   "start_seconds": 180.16,
+   "end_seconds": 180.34,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 180.34,
+   "end_seconds": 180.48,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "PostgreSQL",
+   "start_seconds": 180.48,
+   "end_seconds": 181.0,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "database",
+   "start_seconds": 181.0,
+   "end_seconds": 181.84,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "that",
+   "start_seconds": 181.84,
+   "end_seconds": 182.28,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "was",
+   "start_seconds": 182.28,
+   "end_seconds": 182.48,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "provisioned",
+   "start_seconds": 182.48,
+   "end_seconds": 183.12,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "for",
+   "start_seconds": 183.12,
+   "end_seconds": 183.24,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "10",
+   "start_seconds": 183.24,
+   "end_seconds": 183.46,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "times",
+   "start_seconds": 183.46,
+   "end_seconds": 183.76,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "our",
+   "start_seconds": 183.76,
+   "end_seconds": 184.0,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "actual",
+   "start_seconds": 184.0,
+   "end_seconds": 184.42,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "traffic.",
+   "start_seconds": 184.42,
+   "end_seconds": 185.0,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "So",
+   "start_seconds": 186.04,
+   "end_seconds": 186.32,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "what",
+   "start_seconds": 186.32,
+   "end_seconds": 186.52,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "did",
+   "start_seconds": 186.52,
+   "end_seconds": 186.74,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "you",
+   "start_seconds": 186.74,
+   "end_seconds": 186.96,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "do",
+   "start_seconds": 186.96,
+   "end_seconds": 187.26,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "about",
+   "start_seconds": 187.26,
+   "end_seconds": 187.5,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "it?",
+   "start_seconds": 187.5,
+   "end_seconds": 187.82,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "Our",
+   "start_seconds": 188.92,
+   "end_seconds": 189.48,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "lead",
+   "start_seconds": 189.48,
+   "end_seconds": 189.68,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "engineer",
+   "start_seconds": 189.68,
+   "end_seconds": 190.06,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "spent",
+   "start_seconds": 190.06,
+   "end_seconds": 190.42,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "two",
+   "start_seconds": 190.42,
+   "end_seconds": 190.68,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "weeks",
+   "start_seconds": 190.68,
+   "end_seconds": 190.94,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "on",
+   "start_seconds": 190.94,
+   "end_seconds": 191.18,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "it.",
+   "start_seconds": 191.18,
+   "end_seconds": 191.46,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "We",
+   "start_seconds": 191.66,
+   "end_seconds": 191.78,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "shut",
+   "start_seconds": 191.78,
+   "end_seconds": 191.96,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "down",
+   "start_seconds": 191.96,
+   "end_seconds": 192.22,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "the",
+   "start_seconds": 192.22,
+   "end_seconds": 192.4,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "idle",
+   "start_seconds": 192.4,
+   "end_seconds": 192.66,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "test",
+   "start_seconds": 192.66,
+   "end_seconds": 192.96,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "environments,",
+   "start_seconds": 192.96,
+   "end_seconds": 193.68,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "moved",
+   "start_seconds": 194.1,
+   "end_seconds": 194.34,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "the",
+   "start_seconds": 194.34,
+   "end_seconds": 194.56,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "batch",
+   "start_seconds": 194.56,
+   "end_seconds": 194.78,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "jobs",
+   "start_seconds": 194.78,
+   "end_seconds": 195.08,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "to",
+   "start_seconds": 195.08,
+   "end_seconds": 195.34,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "cheaper",
+   "start_seconds": 195.34,
+   "end_seconds": 195.66,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "spot",
+   "start_seconds": 195.66,
+   "end_seconds": 196.02,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "instances,",
+   "start_seconds": 196.02,
+   "end_seconds": 196.52,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "and",
+   "start_seconds": 196.94,
+   "end_seconds": 197.14,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "resized",
+   "start_seconds": 197.14,
+   "end_seconds": 197.54,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "the",
+   "start_seconds": 197.54,
+   "end_seconds": 197.74,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "database.",
+   "start_seconds": 197.74,
+   "end_seconds": 198.22,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "We",
+   "start_seconds": 198.22,
+   "end_seconds": 198.8,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "also",
+   "start_seconds": 198.8,
+   "end_seconds": 199.1,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "signed",
+   "start_seconds": 199.1,
+   "end_seconds": 199.5,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 199.5,
+   "end_seconds": 199.66,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "one",
+   "start_seconds": 199.66,
+   "end_seconds": 199.82,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "-year",
+   "start_seconds": 199.82,
+   "end_seconds": 200.06,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "savings",
+   "start_seconds": 200.06,
+   "end_seconds": 200.38,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "plan",
+   "start_seconds": 200.38,
+   "end_seconds": 200.76,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "with",
+   "start_seconds": 200.76,
+   "end_seconds": 201.0,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Amazon.",
+   "start_seconds": 201.0,
+   "end_seconds": 201.5,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Altogether,",
+   "start_seconds": 202.04,
+   "end_seconds": 202.44,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "our",
+   "start_seconds": 202.64,
+   "end_seconds": 202.72,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "hosting",
+   "start_seconds": 202.72,
+   "end_seconds": 203.08,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "bill",
+   "start_seconds": 203.08,
+   "end_seconds": 203.34,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "dropped",
+   "start_seconds": 203.34,
+   "end_seconds": 203.62,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "from",
+   "start_seconds": 203.62,
+   "end_seconds": 203.86,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "about",
+   "start_seconds": 203.86,
+   "end_seconds": 204.14,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "$32",
+   "start_seconds": 204.14,
+   "end_seconds": 204.7,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": ",000",
+   "start_seconds": 204.7,
+   "end_seconds": 205.26,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 205.26,
+   "end_seconds": 205.74,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "month",
+   "start_seconds": 205.74,
+   "end_seconds": 205.88,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "to",
+   "start_seconds": 205.88,
+   "end_seconds": 206.1,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "around",
+   "start_seconds": 206.1,
+   "end_seconds": 206.4,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "21",
+   "start_seconds": 206.4,
+   "end_seconds": 207.0,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": ",000.",
+   "start_seconds": 207.0,
+   "end_seconds": 207.64,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "That's",
+   "start_seconds": 207.78,
+   "end_seconds": 208.04,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "roughly",
+   "start_seconds": 208.04,
+   "end_seconds": 208.36,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 208.36,
+   "end_seconds": 208.52,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "35",
+   "start_seconds": 208.52,
+   "end_seconds": 209.1,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "%",
+   "start_seconds": 209.1,
+   "end_seconds": 209.52,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "reduction,",
+   "start_seconds": 209.52,
+   "end_seconds": 210.08,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "and",
+   "start_seconds": 210.4,
+   "end_seconds": 210.56,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "it",
+   "start_seconds": 210.56,
+   "end_seconds": 210.7,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "added",
+   "start_seconds": 210.7,
+   "end_seconds": 210.94,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "almost",
+   "start_seconds": 210.94,
+   "end_seconds": 211.28,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 211.28,
+   "end_seconds": 211.52,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "full",
+   "start_seconds": 211.52,
+   "end_seconds": 211.72,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "month",
+   "start_seconds": 211.72,
+   "end_seconds": 211.92,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "of",
+   "start_seconds": 211.92,
+   "end_seconds": 212.12,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "runway",
+   "start_seconds": 212.12,
+   "end_seconds": 212.32,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "on",
+   "start_seconds": 212.32,
+   "end_seconds": 212.64,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "its",
+   "start_seconds": 212.64,
+   "end_seconds": 212.8,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "own.",
+   "start_seconds": 212.8,
+   "end_seconds": 213.14,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "That's",
+   "start_seconds": 214.26,
+   "end_seconds": 214.54,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "a",
+   "start_seconds": 214.54,
+   "end_seconds": 214.64,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "real",
+   "start_seconds": 214.64,
+   "end_seconds": 214.88,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "number.",
+   "start_seconds": 214.88,
+   "end_seconds": 215.32,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "I'll",
+   "start_seconds": 215.9,
+   "end_seconds": 216.14,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "admit",
+   "start_seconds": 216.14,
+   "end_seconds": 216.44,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "that",
+   "start_seconds": 216.44,
+   "end_seconds": 216.72,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "is",
+   "start_seconds": 216.72,
+   "end_seconds": 216.88,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "more",
+   "start_seconds": 216.88,
+   "end_seconds": 217.14,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "than",
+   "start_seconds": 217.14,
+   "end_seconds": 217.38,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "I",
+   "start_seconds": 217.38,
+   "end_seconds": 217.56,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "expected",
+   "start_seconds": 217.56,
+   "end_seconds": 218.12,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "from",
+   "start_seconds": 218.12,
+   "end_seconds": 218.58,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "cleaning",
+   "start_seconds": 218.58,
+   "end_seconds": 219.0,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "up",
+   "start_seconds": 219.0,
+   "end_seconds": 219.26,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "servers.",
+   "start_seconds": 219.26,
+   "end_seconds": 219.82,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "It",
+   "start_seconds": 221.2,
+   "end_seconds": 221.64,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "surprised",
+   "start_seconds": 221.64,
+   "end_seconds": 222.06,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "us",
+   "start_seconds": 222.06,
+   "end_seconds": 222.34,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "too.",
+   "start_seconds": 222.34,
+   "end_seconds": 222.62,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "The",
+   "start_seconds": 222.94,
+   "end_seconds": 223.06,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "lesson",
+   "start_seconds": 223.06,
+   "end_seconds": 223.32,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "for",
+   "start_seconds": 223.32,
+   "end_seconds": 223.58,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "other",
+   "start_seconds": 223.58,
+   "end_seconds": 223.84,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "founders",
+   "start_seconds": 223.84,
+   "end_seconds": 224.18,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "is",
+   "start_seconds": 224.18,
+   "end_seconds": 224.42,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "that",
+   "start_seconds": 224.42,
+   "end_seconds": 224.66,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "cloud",
+   "start_seconds": 224.66,
+   "end_seconds": 224.92,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "spending",
+   "start_seconds": 224.92,
+   "end_seconds": 225.34,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "grows",
+   "start_seconds": 225.34,
+   "end_seconds": 225.68,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "quietly.",
+   "start_seconds": 225.68,
+   "end_seconds": 226.22,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Nobody",
+   "start_seconds": 226.22,
+   "end_seconds": 226.76,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "decides",
+   "start_seconds": 226.76,
+   "end_seconds": 227.38,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "to",
+   "start_seconds": 227.38,
+   "end_seconds": 227.7,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "waste",
+   "start_seconds": 227.7,
+   "end_seconds": 227.86,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "money.",
+   "start_seconds": 227.86,
+   "end_seconds": 228.24,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "It",
+   "start_seconds": 228.56,
+   "end_seconds": 228.66,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "just",
+   "start_seconds": 228.66,
+   "end_seconds": 228.9,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "accumulates",
+   "start_seconds": 228.9,
+   "end_seconds": 229.6,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "when",
+   "start_seconds": 229.6,
+   "end_seconds": 229.84,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "you",
+   "start_seconds": 229.84,
+   "end_seconds": 230.0,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "are",
+   "start_seconds": 230.0,
+   "end_seconds": 230.14,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "moving",
+   "start_seconds": 230.14,
+   "end_seconds": 230.44,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "fast.",
+   "start_seconds": 230.44,
+   "end_seconds": 230.98,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Okay,",
+   "start_seconds": 232.4,
+   "end_seconds": 232.48,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "but",
+   "start_seconds": 232.8,
+   "end_seconds": 233.02,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "even",
+   "start_seconds": 233.02,
+   "end_seconds": 233.22,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "with",
+   "start_seconds": 233.22,
+   "end_seconds": 233.58,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "those",
+   "start_seconds": 233.58,
+   "end_seconds": 233.8,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "savings,",
+   "start_seconds": 233.8,
+   "end_seconds": 234.3,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "you",
+   "start_seconds": 234.82,
+   "end_seconds": 234.9,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "still",
+   "start_seconds": 234.9,
+   "end_seconds": 235.22,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "have",
+   "start_seconds": 235.22,
+   "end_seconds": 235.54,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "a",
+   "start_seconds": 235.54,
+   "end_seconds": 235.7,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "deadline.",
+   "start_seconds": 235.7,
+   "end_seconds": 236.14,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "When",
+   "start_seconds": 236.92,
+   "end_seconds": 237.04,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "do",
+   "start_seconds": 237.04,
+   "end_seconds": 237.26,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "you",
+   "start_seconds": 237.26,
+   "end_seconds": 237.46,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "actually",
+   "start_seconds": 237.46,
+   "end_seconds": 237.88,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "need",
+   "start_seconds": 237.88,
+   "end_seconds": 238.42,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "to",
+   "start_seconds": 238.42,
+   "end_seconds": 238.68,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "close",
+   "start_seconds": 238.68,
+   "end_seconds": 239.08,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "the",
+   "start_seconds": 239.08,
+   "end_seconds": 239.34,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "Series",
+   "start_seconds": 239.34,
+   "end_seconds": 239.7,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "A?",
+   "start_seconds": 239.7,
+   "end_seconds": 240.14,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "Our",
+   "start_seconds": 241.44,
+   "end_seconds": 241.82,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "internal",
+   "start_seconds": 241.82,
+   "end_seconds": 242.22,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "deadline",
+   "start_seconds": 242.22,
+   "end_seconds": 242.62,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "is",
+   "start_seconds": 242.62,
+   "end_seconds": 242.84,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "the",
+   "start_seconds": 242.84,
+   "end_seconds": 243.0,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "end",
+   "start_seconds": 243.0,
+   "end_seconds": 243.18,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "of",
+   "start_seconds": 243.18,
+   "end_seconds": 243.36,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "June.",
+   "start_seconds": 243.36,
+   "end_seconds": 243.6,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "If",
+   "start_seconds": 243.94,
+   "end_seconds": 244.08,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "we",
+   "start_seconds": 244.08,
+   "end_seconds": 244.26,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "don't",
+   "start_seconds": 244.26,
+   "end_seconds": 244.48,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "have",
+   "start_seconds": 244.48,
+   "end_seconds": 244.7,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 244.7,
+   "end_seconds": 244.8,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "signed",
+   "start_seconds": 244.8,
+   "end_seconds": 245.08,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "term",
+   "start_seconds": 245.08,
+   "end_seconds": 245.36,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "sheet",
+   "start_seconds": 245.36,
+   "end_seconds": 245.62,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "by",
+   "start_seconds": 245.62,
+   "end_seconds": 245.86,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "June",
+   "start_seconds": 245.86,
+   "end_seconds": 246.12,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "30th,",
+   "start_seconds": 246.12,
+   "end_seconds": 246.86,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "we",
+   "start_seconds": 246.86,
+   "end_seconds": 247.04,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "will",
+   "start_seconds": 247.04,
+   "end_seconds": 247.18,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "have",
+   "start_seconds": 247.18,
+   "end_seconds": 247.34,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "to",
+   "start_seconds": 247.34,
+   "end_seconds": 247.5,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "make",
+   "start_seconds": 247.5,
+   "end_seconds": 247.7,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "harder",
+   "start_seconds": 247.7,
+   "end_seconds": 248.02,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "decisions,",
+   "start_seconds": 248.02,
+   "end_seconds": 248.56,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "including",
+   "start_seconds": 248.98,
+   "end_seconds": 249.34,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "slowing",
+   "start_seconds": 249.34,
+   "end_seconds": 249.76,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "down",
+   "start_seconds": 249.76,
+   "end_seconds": 250.12,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "hiring,",
+   "start_seconds": 250.12,
+   "end_seconds": 250.54,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "so",
+   "start_seconds": 250.88,
+   "end_seconds": 251.16,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "everything",
+   "start_seconds": 251.16,
+   "end_seconds": 251.46,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "in",
+   "start_seconds": 251.46,
+   "end_seconds": 251.78,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "the",
+   "start_seconds": 251.78,
+   "end_seconds": 251.9,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "plan",
+   "start_seconds": 251.9,
+   "end_seconds": 252.12,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "works",
+   "start_seconds": 252.12,
+   "end_seconds": 252.46,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "backward",
+   "start_seconds": 252.46,
+   "end_seconds": 252.88,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "from",
+   "start_seconds": 252.88,
+   "end_seconds": 253.12,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "that",
+   "start_seconds": 253.12,
+   "end_seconds": 253.32,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "date.",
+   "start_seconds": 253.32,
+   "end_seconds": 253.62,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Let's",
+   "start_seconds": 254.44,
+   "end_seconds": 255.08,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "talk",
+   "start_seconds": 255.08,
+   "end_seconds": 255.32,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "about",
+   "start_seconds": 255.32,
+   "end_seconds": 255.74,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "metrics",
+   "start_seconds": 255.74,
+   "end_seconds": 256.2,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "then.",
+   "start_seconds": 256.2,
+   "end_seconds": 256.8,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "What",
+   "start_seconds": 257.44,
+   "end_seconds": 257.48,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "do",
+   "start_seconds": 257.48,
+   "end_seconds": 257.74,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "Series",
+   "start_seconds": 257.74,
+   "end_seconds": 258.12,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "A",
+   "start_seconds": 258.12,
+   "end_seconds": 258.48,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "investors",
+   "start_seconds": 258.48,
+   "end_seconds": 259.02,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "want",
+   "start_seconds": 259.02,
+   "end_seconds": 259.42,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "to",
+   "start_seconds": 259.42,
+   "end_seconds": 259.68,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "see",
+   "start_seconds": 259.68,
+   "end_seconds": 259.9,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "from",
+   "start_seconds": 259.9,
+   "end_seconds": 260.16,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "a",
+   "start_seconds": 260.16,
+   "end_seconds": 260.38,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "company",
+   "start_seconds": 260.38,
+   "end_seconds": 260.8,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "like",
+   "start_seconds": 260.8,
+   "end_seconds": 261.2,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "yours",
+   "start_seconds": 261.2,
+   "end_seconds": 261.54,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "right",
+   "start_seconds": 261.54,
+   "end_seconds": 261.82,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "now?",
+   "start_seconds": 261.82,
+   "end_seconds": 262.34,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "The",
+   "start_seconds": 263.64,
+   "end_seconds": 263.88,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "bar",
+   "start_seconds": 263.88,
+   "end_seconds": 264.08,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "has",
+   "start_seconds": 264.08,
+   "end_seconds": 264.3,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "gone",
+   "start_seconds": 264.3,
+   "end_seconds": 264.52,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "up",
+   "start_seconds": 264.52,
+   "end_seconds": 264.72,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 264.72,
+   "end_seconds": 264.84,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "lot.",
+   "start_seconds": 264.84,
+   "end_seconds": 265.12,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "A",
+   "start_seconds": 265.4,
+   "end_seconds": 265.5,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "few",
+   "start_seconds": 265.5,
+   "end_seconds": 265.7,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "years",
+   "start_seconds": 265.7,
+   "end_seconds": 266.02,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "ago,",
+   "start_seconds": 266.02,
+   "end_seconds": 266.42,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 266.7,
+   "end_seconds": 266.82,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "million",
+   "start_seconds": 266.82,
+   "end_seconds": 267.04,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "in",
+   "start_seconds": 267.04,
+   "end_seconds": 267.3,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "annual",
+   "start_seconds": 267.3,
+   "end_seconds": 267.66,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "recurring",
+   "start_seconds": 267.66,
+   "end_seconds": 268.18,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "revenue",
+   "start_seconds": 268.18,
+   "end_seconds": 268.56,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "with",
+   "start_seconds": 268.56,
+   "end_seconds": 268.76,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "decent",
+   "start_seconds": 268.76,
+   "end_seconds": 269.12,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "growth",
+   "start_seconds": 269.12,
+   "end_seconds": 269.38,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "was",
+   "start_seconds": 269.38,
+   "end_seconds": 269.62,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "enough.",
+   "start_seconds": 269.62,
+   "end_seconds": 270.04,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Now",
+   "start_seconds": 270.4,
+   "end_seconds": 270.58,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "investors",
+   "start_seconds": 270.58,
+   "end_seconds": 270.98,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "want",
+   "start_seconds": 270.98,
+   "end_seconds": 271.38,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "to",
+   "start_seconds": 271.38,
+   "end_seconds": 271.56,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "see",
+   "start_seconds": 271.56,
+   "end_seconds": 271.76,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "efficient",
+   "start_seconds": 271.76,
+   "end_seconds": 272.16,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "growth.",
+   "start_seconds": 272.16,
+   "end_seconds": 272.64,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "They",
+   "start_seconds": 272.98,
+   "end_seconds": 273.08,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "ask",
+   "start_seconds": 273.08,
+   "end_seconds": 273.32,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "about",
+   "start_seconds": 273.32,
+   "end_seconds": 273.62,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "net",
+   "start_seconds": 273.62,
+   "end_seconds": 273.82,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "revenue",
+   "start_seconds": 273.82,
+   "end_seconds": 274.2,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "retention,",
+   "start_seconds": 274.2,
+   "end_seconds": 274.82,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "about",
+   "start_seconds": 275.16,
+   "end_seconds": 275.42,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "the",
+   "start_seconds": 275.42,
+   "end_seconds": 275.6,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "payback",
+   "start_seconds": 275.6,
+   "end_seconds": 275.98,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "period",
+   "start_seconds": 275.98,
+   "end_seconds": 276.3,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "on",
+   "start_seconds": 276.3,
+   "end_seconds": 276.62,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "customer",
+   "start_seconds": 276.62,
+   "end_seconds": 276.98,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "acquisition,",
+   "start_seconds": 276.98,
+   "end_seconds": 277.68,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "and",
+   "start_seconds": 278.0,
+   "end_seconds": 278.2,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "about",
+   "start_seconds": 278.2,
+   "end_seconds": 278.48,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "gross",
+   "start_seconds": 278.48,
+   "end_seconds": 278.76,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "margin.",
+   "start_seconds": 278.76,
+   "end_seconds": 279.2,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "For",
+   "start_seconds": 279.2,
+   "end_seconds": 279.7,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "us,",
+   "start_seconds": 279.7,
+   "end_seconds": 280.02,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "net",
+   "start_seconds": 280.4,
+   "end_seconds": 280.44,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "revenue",
+   "start_seconds": 280.44,
+   "end_seconds": 280.8,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "retention",
+   "start_seconds": 280.8,
+   "end_seconds": 281.26,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "is",
+   "start_seconds": 281.26,
+   "end_seconds": 281.52,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "around",
+   "start_seconds": 281.52,
+   "end_seconds": 281.78,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "130%,",
+   "start_seconds": 281.78,
+   "end_seconds": 283.34,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "because",
+   "start_seconds": 283.34,
+   "end_seconds": 284.0,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "customers",
+   "start_seconds": 284.0,
+   "end_seconds": 284.54,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "who",
+   "start_seconds": 284.54,
+   "end_seconds": 284.82,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "start",
+   "start_seconds": 284.82,
+   "end_seconds": 285.12,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "with",
+   "start_seconds": 285.12,
+   "end_seconds": 285.36,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "One",
+   "start_seconds": 285.36,
+   "end_seconds": 285.62,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Depot",
+   "start_seconds": 285.62,
+   "end_seconds": 285.84,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "usually",
+   "start_seconds": 285.84,
+   "end_seconds": 286.34,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "expand",
+   "start_seconds": 286.34,
+   "end_seconds": 286.88,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "to",
+   "start_seconds": 286.88,
+   "end_seconds": 287.12,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "several.",
+   "start_seconds": 287.12,
+   "end_seconds": 287.52,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "That",
+   "start_seconds": 288.6,
+   "end_seconds": 288.84,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "expansion",
+   "start_seconds": 288.84,
+   "end_seconds": 289.4,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "story",
+   "start_seconds": 289.4,
+   "end_seconds": 290.08,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "is",
+   "start_seconds": 290.08,
+   "end_seconds": 290.36,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "strong.",
+   "start_seconds": 290.36,
+   "end_seconds": 290.84,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "What",
+   "start_seconds": 291.5,
+   "end_seconds": 291.7,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "about",
+   "start_seconds": 291.7,
+   "end_seconds": 292.04,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "gross",
+   "start_seconds": 292.04,
+   "end_seconds": 292.4,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "margin?",
+   "start_seconds": 292.4,
+   "end_seconds": 292.94,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "Software",
+   "start_seconds": 293.74,
+   "end_seconds": 294.16,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "investors",
+   "start_seconds": 294.16,
+   "end_seconds": 294.72,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "tend",
+   "start_seconds": 294.72,
+   "end_seconds": 295.24,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "to",
+   "start_seconds": 295.24,
+   "end_seconds": 295.54,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "be",
+   "start_seconds": 295.54,
+   "end_seconds": 295.72,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "strict",
+   "start_seconds": 295.72,
+   "end_seconds": 296.12,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "about",
+   "start_seconds": 296.12,
+   "end_seconds": 296.48,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "that.",
+   "start_seconds": 296.48,
+   "end_seconds": 296.92,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "That",
+   "start_seconds": 298.4,
+   "end_seconds": 298.62,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "is",
+   "start_seconds": 298.62,
+   "end_seconds": 298.76,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "actually",
+   "start_seconds": 298.76,
+   "end_seconds": 299.24,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "another",
+   "start_seconds": 299.24,
+   "end_seconds": 299.54,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "reason",
+   "start_seconds": 299.54,
+   "end_seconds": 299.96,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "the",
+   "start_seconds": 299.96,
+   "end_seconds": 300.14,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "hosting",
+   "start_seconds": 300.14,
+   "end_seconds": 300.46,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "work",
+   "start_seconds": 300.46,
+   "end_seconds": 300.76,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "mattered.",
+   "start_seconds": 300.76,
+   "end_seconds": 301.22,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Lower",
+   "start_seconds": 301.64,
+   "end_seconds": 301.7,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "hosting",
+   "start_seconds": 301.7,
+   "end_seconds": 302.2,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "costs",
+   "start_seconds": 302.2,
+   "end_seconds": 302.52,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "go",
+   "start_seconds": 302.52,
+   "end_seconds": 302.82,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "straight",
+   "start_seconds": 302.82,
+   "end_seconds": 303.12,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "into",
+   "start_seconds": 303.12,
+   "end_seconds": 303.38,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "gross",
+   "start_seconds": 303.38,
+   "end_seconds": 303.66,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "margin.",
+   "start_seconds": 303.66,
+   "end_seconds": 304.1,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "We",
+   "start_seconds": 304.46,
+   "end_seconds": 304.54,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "went",
+   "start_seconds": 304.54,
+   "end_seconds": 304.74,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "from",
+   "start_seconds": 304.74,
+   "end_seconds": 304.92,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "about",
+   "start_seconds": 304.92,
+   "end_seconds": 305.24,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "71",
+   "start_seconds": 305.24,
+   "end_seconds": 305.9,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "%",
+   "start_seconds": 305.9,
+   "end_seconds": 306.28,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "to",
+   "start_seconds": 306.28,
+   "end_seconds": 306.52,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "79%,",
+   "start_seconds": 306.52,
+   "end_seconds": 307.76,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "which",
+   "start_seconds": 307.76,
+   "end_seconds": 308.16,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "puts",
+   "start_seconds": 308.16,
+   "end_seconds": 308.48,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "us",
+   "start_seconds": 308.48,
+   "end_seconds": 308.66,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "in",
+   "start_seconds": 308.66,
+   "end_seconds": 308.82,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "the",
+   "start_seconds": 308.82,
+   "end_seconds": 308.94,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "range",
+   "start_seconds": 308.94,
+   "end_seconds": 309.22,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "investors",
+   "start_seconds": 309.22,
+   "end_seconds": 309.72,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "expect",
+   "start_seconds": 309.72,
+   "end_seconds": 310.16,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "for",
+   "start_seconds": 310.16,
+   "end_seconds": 310.42,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 310.42,
+   "end_seconds": 310.6,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "software",
+   "start_seconds": 310.6,
+   "end_seconds": 311.0,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "business.",
+   "start_seconds": 311.0,
+   "end_seconds": 311.74,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Investors",
+   "start_seconds": 313.1,
+   "end_seconds": 313.1,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "will",
+   "start_seconds": 313.1,
+   "end_seconds": 313.56,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "also",
+   "start_seconds": 313.56,
+   "end_seconds": 313.9,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "ask",
+   "start_seconds": 313.9,
+   "end_seconds": 314.26,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "about",
+   "start_seconds": 314.26,
+   "end_seconds": 314.62,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "competition.",
+   "start_seconds": 314.62,
+   "end_seconds": 315.48,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "Who",
+   "start_seconds": 316.4,
+   "end_seconds": 316.56,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "else",
+   "start_seconds": 316.56,
+   "end_seconds": 316.76,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "is",
+   "start_seconds": 316.76,
+   "end_seconds": 316.98,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "selling",
+   "start_seconds": 316.98,
+   "end_seconds": 317.38,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "route",
+   "start_seconds": 317.38,
+   "end_seconds": 317.66,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "planning",
+   "start_seconds": 317.66,
+   "end_seconds": 318.12,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "to",
+   "start_seconds": 318.12,
+   "end_seconds": 318.5,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "regional",
+   "start_seconds": 318.5,
+   "end_seconds": 318.94,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "carriers?",
+   "start_seconds": 318.94,
+   "end_seconds": 319.56,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "There",
+   "start_seconds": 321.22,
+   "end_seconds": 321.44,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "are",
+   "start_seconds": 321.44,
+   "end_seconds": 321.6,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "two",
+   "start_seconds": 321.6,
+   "end_seconds": 321.8,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "large",
+   "start_seconds": 321.8,
+   "end_seconds": 322.1,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "incumbents,",
+   "start_seconds": 322.1,
+   "end_seconds": 322.8,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "but",
+   "start_seconds": 322.96,
+   "end_seconds": 323.16,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "their",
+   "start_seconds": 323.16,
+   "end_seconds": 323.36,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "products",
+   "start_seconds": 323.36,
+   "end_seconds": 323.72,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "were",
+   "start_seconds": 323.72,
+   "end_seconds": 323.94,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "built",
+   "start_seconds": 323.94,
+   "end_seconds": 324.14,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "for",
+   "start_seconds": 324.14,
+   "end_seconds": 324.36,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "national",
+   "start_seconds": 324.36,
+   "end_seconds": 324.78,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "carriers",
+   "start_seconds": 324.78,
+   "end_seconds": 325.2,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "with",
+   "start_seconds": 325.2,
+   "end_seconds": 325.48,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "huge",
+   "start_seconds": 325.48,
+   "end_seconds": 325.8,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "fleets.",
+   "start_seconds": 325.8,
+   "end_seconds": 326.26,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Regional",
+   "start_seconds": 326.76,
+   "end_seconds": 327.0,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "companies",
+   "start_seconds": 327.0,
+   "end_seconds": 327.44,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "with",
+   "start_seconds": 327.44,
+   "end_seconds": 327.8,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "20",
+   "start_seconds": 327.8,
+   "end_seconds": 328.12,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "to",
+   "start_seconds": 328.12,
+   "end_seconds": 328.3,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "200",
+   "start_seconds": 328.3,
+   "end_seconds": 328.74,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "trucks",
+   "start_seconds": 328.74,
+   "end_seconds": 329.2,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "find",
+   "start_seconds": 329.2,
+   "end_seconds": 329.54,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "them",
+   "start_seconds": 329.54,
+   "end_seconds": 329.72,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "too",
+   "start_seconds": 329.72,
+   "end_seconds": 329.94,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "expensive",
+   "start_seconds": 329.94,
+   "end_seconds": 330.42,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "and",
+   "start_seconds": 330.42,
+   "end_seconds": 330.72,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "too",
+   "start_seconds": 330.72,
+   "end_seconds": 330.92,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "complicated.",
+   "start_seconds": 330.92,
+   "end_seconds": 331.64,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Our",
+   "start_seconds": 331.98,
+   "end_seconds": 332.14,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "onboarding",
+   "start_seconds": 332.14,
+   "end_seconds": 332.74,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "takes",
+   "start_seconds": 332.74,
+   "end_seconds": 332.94,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "about",
+   "start_seconds": 332.94,
+   "end_seconds": 333.3,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "two",
+   "start_seconds": 333.3,
+   "end_seconds": 333.54,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "weeks",
+   "start_seconds": 333.54,
+   "end_seconds": 333.82,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "instead",
+   "start_seconds": 333.82,
+   "end_seconds": 334.2,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "of",
+   "start_seconds": 334.2,
+   "end_seconds": 334.42,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "six",
+   "start_seconds": 334.42,
+   "end_seconds": 334.62,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "months,",
+   "start_seconds": 334.62,
+   "end_seconds": 335.12,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "and",
+   "start_seconds": 335.12,
+   "end_seconds": 335.6,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "that",
+   "start_seconds": 335.6,
+   "end_seconds": 335.76,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "is",
+   "start_seconds": 335.76,
+   "end_seconds": 335.9,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "usually",
+   "start_seconds": 335.9,
+   "end_seconds": 336.24,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "what",
+   "start_seconds": 336.24,
+   "end_seconds": 336.52,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "wins",
+   "start_seconds": 336.52,
+   "end_seconds": 336.76,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "the",
+   "start_seconds": 336.76,
+   "end_seconds": 336.94,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "deal.",
+   "start_seconds": 336.94,
+   "end_seconds": 337.26,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "And",
+   "start_seconds": 338.5,
+   "end_seconds": 338.5,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "how",
+   "start_seconds": 338.5,
+   "end_seconds": 338.84,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "many",
+   "start_seconds": 338.84,
+   "end_seconds": 339.2,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "customers",
+   "start_seconds": 339.2,
+   "end_seconds": 339.86,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "have",
+   "start_seconds": 339.86,
+   "end_seconds": 340.22,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "you",
+   "start_seconds": 340.22,
+   "end_seconds": 340.44,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "lost?",
+   "start_seconds": 340.44,
+   "end_seconds": 340.88,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "One",
+   "start_seconds": 342.44,
+   "end_seconds": 342.74,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "customer",
+   "start_seconds": 342.74,
+   "end_seconds": 343.12,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "in",
+   "start_seconds": 343.12,
+   "end_seconds": 343.4,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "18",
+   "start_seconds": 343.4,
+   "end_seconds": 343.76,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "months,",
+   "start_seconds": 343.76,
+   "end_seconds": 344.24,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "and",
+   "start_seconds": 344.54,
+   "end_seconds": 344.74,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "only",
+   "start_seconds": 344.74,
+   "end_seconds": 345.0,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "because",
+   "start_seconds": 345.0,
+   "end_seconds": 345.38,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "they",
+   "start_seconds": 345.38,
+   "end_seconds": 345.62,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "were",
+   "start_seconds": 345.62,
+   "end_seconds": 345.76,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "acquired",
+   "start_seconds": 345.76,
+   "end_seconds": 346.2,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "by",
+   "start_seconds": 346.2,
+   "end_seconds": 346.48,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 346.48,
+   "end_seconds": 346.62,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "larger",
+   "start_seconds": 346.62,
+   "end_seconds": 346.94,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "carrier",
+   "start_seconds": 346.94,
+   "end_seconds": 347.38,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "that",
+   "start_seconds": 347.38,
+   "end_seconds": 347.64,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "already",
+   "start_seconds": 347.64,
+   "end_seconds": 347.96,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "had",
+   "start_seconds": 347.96,
+   "end_seconds": 348.28,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "its",
+   "start_seconds": 348.28,
+   "end_seconds": 348.46,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "own",
+   "start_seconds": 348.46,
+   "end_seconds": 348.66,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "system.",
+   "start_seconds": 348.66,
+   "end_seconds": 349.16,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Let",
+   "start_seconds": 350.22,
+   "end_seconds": 350.44,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "me",
+   "start_seconds": 350.44,
+   "end_seconds": 350.68,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "go",
+   "start_seconds": 350.68,
+   "end_seconds": 350.96,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "back",
+   "start_seconds": 350.96,
+   "end_seconds": 351.26,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "to",
+   "start_seconds": 351.26,
+   "end_seconds": 351.58,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "dilution",
+   "start_seconds": 351.58,
+   "end_seconds": 351.9,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "for",
+   "start_seconds": 351.9,
+   "end_seconds": 352.26,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "a",
+   "start_seconds": 352.26,
+   "end_seconds": 352.44,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "moment.",
+   "start_seconds": 352.44,
+   "end_seconds": 352.76,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "If",
+   "start_seconds": 353.42,
+   "end_seconds": 353.62,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "you",
+   "start_seconds": 353.62,
+   "end_seconds": 353.82,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "raise",
+   "start_seconds": 353.82,
+   "end_seconds": 354.16,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "$8",
+   "start_seconds": 354.16,
+   "end_seconds": 354.48,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "million",
+   "start_seconds": 354.48,
+   "end_seconds": 354.82,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "at",
+   "start_seconds": 354.82,
+   "end_seconds": 355.06,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "a",
+   "start_seconds": 355.06,
+   "end_seconds": 355.2,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "$40",
+   "start_seconds": 355.2,
+   "end_seconds": 355.48,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "million",
+   "start_seconds": 355.48,
+   "end_seconds": 356.08,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "pre",
+   "start_seconds": 356.08,
+   "end_seconds": 356.42,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "-money",
+   "start_seconds": 356.42,
+   "end_seconds": 356.7,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "valuation,",
+   "start_seconds": 356.7,
+   "end_seconds": 357.6,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "you're",
+   "start_seconds": 358.06,
+   "end_seconds": 358.24,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "giving",
+   "start_seconds": 358.24,
+   "end_seconds": 358.54,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "up",
+   "start_seconds": 358.54,
+   "end_seconds": 358.78,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "about",
+   "start_seconds": 358.78,
+   "end_seconds": 359.1,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "16",
+   "start_seconds": 359.1,
+   "end_seconds": 359.74,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "%",
+   "start_seconds": 359.74,
+   "end_seconds": 359.94,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "or",
+   "start_seconds": 359.94,
+   "end_seconds": 359.96,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "17",
+   "start_seconds": 359.96,
+   "end_seconds": 360.72,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "%",
+   "start_seconds": 360.72,
+   "end_seconds": 360.86,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "of",
+   "start_seconds": 360.86,
+   "end_seconds": 361.5,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "the",
+   "start_seconds": 361.5,
+   "end_seconds": 361.7,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "company.",
+   "start_seconds": 361.7,
+   "end_seconds": 362.16,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "Are",
+   "start_seconds": 362.76,
+   "end_seconds": 363.02,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "you",
+   "start_seconds": 363.02,
+   "end_seconds": 363.22,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "comfortable",
+   "start_seconds": 363.22,
+   "end_seconds": 363.68,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "with",
+   "start_seconds": 363.68,
+   "end_seconds": 364.24,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "that?",
+   "start_seconds": 364.24,
+   "end_seconds": 364.54,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "I",
+   "start_seconds": 365.8,
+   "end_seconds": 366.32,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "am.",
+   "start_seconds": 366.32,
+   "end_seconds": 366.6,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "The",
+   "start_seconds": 366.94,
+   "end_seconds": 367.04,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "founders",
+   "start_seconds": 367.04,
+   "end_seconds": 367.4,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "together",
+   "start_seconds": 367.4,
+   "end_seconds": 367.9,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "still",
+   "start_seconds": 367.9,
+   "end_seconds": 368.18,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "own",
+   "start_seconds": 368.18,
+   "end_seconds": 368.4,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 368.4,
+   "end_seconds": 368.54,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "bit",
+   "start_seconds": 368.54,
+   "end_seconds": 368.66,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "over",
+   "start_seconds": 368.66,
+   "end_seconds": 368.94,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "60",
+   "start_seconds": 368.94,
+   "end_seconds": 369.36,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "%",
+   "start_seconds": 369.36,
+   "end_seconds": 369.74,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "after",
+   "start_seconds": 369.74,
+   "end_seconds": 370.16,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "the",
+   "start_seconds": 370.16,
+   "end_seconds": 370.38,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "seed",
+   "start_seconds": 370.38,
+   "end_seconds": 370.56,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "round.",
+   "start_seconds": 370.56,
+   "end_seconds": 370.94,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "So",
+   "start_seconds": 371.26,
+   "end_seconds": 371.48,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "even",
+   "start_seconds": 371.48,
+   "end_seconds": 371.74,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "after",
+   "start_seconds": 371.74,
+   "end_seconds": 372.14,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "the",
+   "start_seconds": 372.14,
+   "end_seconds": 372.32,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Series",
+   "start_seconds": 372.32,
+   "end_seconds": 372.58,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "A,",
+   "start_seconds": 372.58,
+   "end_seconds": 372.84,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "we",
+   "start_seconds": 372.9,
+   "end_seconds": 373.0,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "keep",
+   "start_seconds": 373.0,
+   "end_seconds": 373.2,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 373.2,
+   "end_seconds": 373.38,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "clear",
+   "start_seconds": 373.38,
+   "end_seconds": 373.62,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "majority.",
+   "start_seconds": 373.62,
+   "end_seconds": 374.14,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "What",
+   "start_seconds": 374.64,
+   "end_seconds": 374.72,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "I",
+   "start_seconds": 374.72,
+   "end_seconds": 374.96,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "care",
+   "start_seconds": 374.96,
+   "end_seconds": 375.16,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "about",
+   "start_seconds": 375.16,
+   "end_seconds": 375.46,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "more",
+   "start_seconds": 375.46,
+   "end_seconds": 375.7,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "is",
+   "start_seconds": 375.7,
+   "end_seconds": 375.9,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "who",
+   "start_seconds": 375.9,
+   "end_seconds": 376.06,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "joins",
+   "start_seconds": 376.06,
+   "end_seconds": 376.38,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "the",
+   "start_seconds": 376.38,
+   "end_seconds": 376.6,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "board.",
+   "start_seconds": 376.6,
+   "end_seconds": 376.84,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "A",
+   "start_seconds": 377.18,
+   "end_seconds": 377.3,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "good",
+   "start_seconds": 377.3,
+   "end_seconds": 377.48,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "board",
+   "start_seconds": 377.48,
+   "end_seconds": 377.7,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "member",
+   "start_seconds": 377.7,
+   "end_seconds": 377.96,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "is",
+   "start_seconds": 377.96,
+   "end_seconds": 378.22,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "worth",
+   "start_seconds": 378.22,
+   "end_seconds": 378.42,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "much",
+   "start_seconds": 378.42,
+   "end_seconds": 378.7,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "more",
+   "start_seconds": 378.7,
+   "end_seconds": 378.94,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "than",
+   "start_seconds": 378.94,
+   "end_seconds": 379.12,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 379.12,
+   "end_seconds": 379.28,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "slightly",
+   "start_seconds": 379.28,
+   "end_seconds": 379.54,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "higher",
+   "start_seconds": 379.54,
+   "end_seconds": 380.04,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "valuation.",
+   "start_seconds": 380.04,
+   "end_seconds": 380.72,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "That's",
+   "start_seconds": 381.74,
+   "end_seconds": 382.26,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "a",
+   "start_seconds": 382.26,
+   "end_seconds": 382.36,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "mature",
+   "start_seconds": 382.36,
+   "end_seconds": 382.7,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "view.",
+   "start_seconds": 382.7,
+   "end_seconds": 383.1,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "A",
+   "start_seconds": 383.64,
+   "end_seconds": 383.82,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "lot",
+   "start_seconds": 383.82,
+   "end_seconds": 384.0,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "of",
+   "start_seconds": 384.0,
+   "end_seconds": 384.2,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "founders",
+   "start_seconds": 384.2,
+   "end_seconds": 384.64,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "optimize",
+   "start_seconds": 384.64,
+   "end_seconds": 385.4,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "for",
+   "start_seconds": 385.4,
+   "end_seconds": 385.76,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "the",
+   "start_seconds": 385.76,
+   "end_seconds": 385.96,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "headline",
+   "start_seconds": 385.96,
+   "end_seconds": 386.4,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "valuation",
+   "start_seconds": 386.4,
+   "end_seconds": 387.2,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "and",
+   "start_seconds": 387.2,
+   "end_seconds": 387.5,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "regret",
+   "start_seconds": 387.5,
+   "end_seconds": 387.88,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "it",
+   "start_seconds": 387.88,
+   "end_seconds": 388.08,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "later.",
+   "start_seconds": 388.08,
+   "end_seconds": 388.56,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "I",
+   "start_seconds": 389.8,
+   "end_seconds": 390.2,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "have",
+   "start_seconds": 390.2,
+   "end_seconds": 390.4,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "friends",
+   "start_seconds": 390.4,
+   "end_seconds": 390.64,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "who",
+   "start_seconds": 390.64,
+   "end_seconds": 390.88,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "raised",
+   "start_seconds": 390.88,
+   "end_seconds": 391.1,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "at",
+   "start_seconds": 391.1,
+   "end_seconds": 391.3,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 391.3,
+   "end_seconds": 391.4,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "valuation",
+   "start_seconds": 391.4,
+   "end_seconds": 391.9,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "they",
+   "start_seconds": 391.9,
+   "end_seconds": 392.22,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "could",
+   "start_seconds": 392.22,
+   "end_seconds": 392.36,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "not",
+   "start_seconds": 392.36,
+   "end_seconds": 392.6,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "grow",
+   "start_seconds": 392.6,
+   "end_seconds": 392.82,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "into.",
+   "start_seconds": 392.82,
+   "end_seconds": 393.14,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "The",
+   "start_seconds": 393.14,
+   "end_seconds": 393.62,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "next",
+   "start_seconds": 393.62,
+   "end_seconds": 393.84,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "round",
+   "start_seconds": 393.84,
+   "end_seconds": 394.18,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "was",
+   "start_seconds": 394.18,
+   "end_seconds": 394.38,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 394.38,
+   "end_seconds": 394.54,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "down",
+   "start_seconds": 394.54,
+   "end_seconds": 394.76,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "round,",
+   "start_seconds": 394.76,
+   "end_seconds": 395.16,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "and",
+   "start_seconds": 395.4,
+   "end_seconds": 395.54,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "it",
+   "start_seconds": 395.54,
+   "end_seconds": 395.68,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "crushed",
+   "start_seconds": 395.68,
+   "end_seconds": 395.96,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "morale.",
+   "start_seconds": 395.96,
+   "end_seconds": 396.32,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "I",
+   "start_seconds": 396.72,
+   "end_seconds": 396.82,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "would",
+   "start_seconds": 396.82,
+   "end_seconds": 396.98,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "rather",
+   "start_seconds": 396.98,
+   "end_seconds": 397.3,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "raise",
+   "start_seconds": 397.3,
+   "end_seconds": 397.56,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "at",
+   "start_seconds": 397.56,
+   "end_seconds": 397.76,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 397.76,
+   "end_seconds": 397.88,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "fair",
+   "start_seconds": 397.88,
+   "end_seconds": 398.04,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "price",
+   "start_seconds": 398.04,
+   "end_seconds": 398.34,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "and",
+   "start_seconds": 398.34,
+   "end_seconds": 398.54,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "beat",
+   "start_seconds": 398.54,
+   "end_seconds": 398.72,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "expectations.",
+   "start_seconds": 398.72,
+   "end_seconds": 399.56,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "So",
+   "start_seconds": 401.18,
+   "end_seconds": 401.18,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "looking",
+   "start_seconds": 401.18,
+   "end_seconds": 401.7,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "at",
+   "start_seconds": 401.7,
+   "end_seconds": 401.96,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "the",
+   "start_seconds": 401.96,
+   "end_seconds": 402.18,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "deadline",
+   "start_seconds": 402.18,
+   "end_seconds": 402.62,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "we",
+   "start_seconds": 402.62,
+   "end_seconds": 402.9,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "talked",
+   "start_seconds": 402.9,
+   "end_seconds": 403.26,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "about",
+   "start_seconds": 403.26,
+   "end_seconds": 403.64,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "earlier,",
+   "start_seconds": 403.64,
+   "end_seconds": 404.14,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "the",
+   "start_seconds": 404.46,
+   "end_seconds": 404.52,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "end",
+   "start_seconds": 404.52,
+   "end_seconds": 404.72,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "of",
+   "start_seconds": 404.72,
+   "end_seconds": 404.98,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "June,",
+   "start_seconds": 404.98,
+   "end_seconds": 405.28,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "what",
+   "start_seconds": 405.78,
+   "end_seconds": 405.86,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "does",
+   "start_seconds": 405.86,
+   "end_seconds": 406.14,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "the",
+   "start_seconds": 406.14,
+   "end_seconds": 406.32,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "next",
+   "start_seconds": 406.32,
+   "end_seconds": 406.62,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "month",
+   "start_seconds": 406.62,
+   "end_seconds": 406.98,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "look",
+   "start_seconds": 406.98,
+   "end_seconds": 407.28,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "like",
+   "start_seconds": 407.28,
+   "end_seconds": 407.56,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "for",
+   "start_seconds": 407.56,
+   "end_seconds": 407.8,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "you?",
+   "start_seconds": 407.8,
+   "end_seconds": 408.14,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "The",
+   "start_seconds": 409.28,
+   "end_seconds": 409.72,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "next",
+   "start_seconds": 409.72,
+   "end_seconds": 409.96,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "four",
+   "start_seconds": 409.96,
+   "end_seconds": 410.28,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "weeks",
+   "start_seconds": 410.28,
+   "end_seconds": 410.52,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "are",
+   "start_seconds": 410.52,
+   "end_seconds": 410.76,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "preparation.",
+   "start_seconds": 410.76,
+   "end_seconds": 411.38,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "We're",
+   "start_seconds": 411.88,
+   "end_seconds": 412.08,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "finishing",
+   "start_seconds": 412.08,
+   "end_seconds": 412.46,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "the",
+   "start_seconds": 412.46,
+   "end_seconds": 412.68,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "data",
+   "start_seconds": 412.68,
+   "end_seconds": 412.92,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "room,",
+   "start_seconds": 412.92,
+   "end_seconds": 413.24,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "cleaning",
+   "start_seconds": 413.58,
+   "end_seconds": 413.8,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "up",
+   "start_seconds": 413.8,
+   "end_seconds": 414.06,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "the",
+   "start_seconds": 414.06,
+   "end_seconds": 414.24,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "financial",
+   "start_seconds": 414.24,
+   "end_seconds": 414.7,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "model,",
+   "start_seconds": 414.7,
+   "end_seconds": 415.12,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "and",
+   "start_seconds": 415.36,
+   "end_seconds": 415.54,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "getting",
+   "start_seconds": 415.54,
+   "end_seconds": 415.82,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "three",
+   "start_seconds": 415.82,
+   "end_seconds": 416.12,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "customer",
+   "start_seconds": 416.12,
+   "end_seconds": 416.58,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "references",
+   "start_seconds": 416.58,
+   "end_seconds": 417.08,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "ready",
+   "start_seconds": 417.08,
+   "end_seconds": 417.42,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "to",
+   "start_seconds": 417.42,
+   "end_seconds": 417.7,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "take",
+   "start_seconds": 417.7,
+   "end_seconds": 417.92,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "calls.",
+   "start_seconds": 417.92,
+   "end_seconds": 418.32,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Then",
+   "start_seconds": 418.68,
+   "end_seconds": 418.84,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "in",
+   "start_seconds": 418.84,
+   "end_seconds": 419.0,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "the",
+   "start_seconds": 419.0,
+   "end_seconds": 419.12,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "first",
+   "start_seconds": 419.12,
+   "end_seconds": 419.34,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "week",
+   "start_seconds": 419.34,
+   "end_seconds": 419.62,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "of",
+   "start_seconds": 419.62,
+   "end_seconds": 419.8,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "April,",
+   "start_seconds": 419.8,
+   "end_seconds": 420.06,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "I",
+   "start_seconds": 420.06,
+   "end_seconds": 420.32,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "start",
+   "start_seconds": 420.32,
+   "end_seconds": 420.58,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "meetings.",
+   "start_seconds": 420.58,
+   "end_seconds": 420.98,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "I",
+   "start_seconds": 420.98,
+   "end_seconds": 421.5,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "have",
+   "start_seconds": 421.5,
+   "end_seconds": 421.68,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 421.68,
+   "end_seconds": 421.82,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "list",
+   "start_seconds": 421.82,
+   "end_seconds": 421.98,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "of",
+   "start_seconds": 421.98,
+   "end_seconds": 422.2,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "22",
+   "start_seconds": 422.2,
+   "end_seconds": 422.68,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "firms,",
+   "start_seconds": 422.68,
+   "end_seconds": 423.2,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "and",
+   "start_seconds": 423.52,
+   "end_seconds": 423.62,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "I",
+   "start_seconds": 423.62,
+   "end_seconds": 423.82,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "plan",
+   "start_seconds": 423.82,
+   "end_seconds": 424.04,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "to",
+   "start_seconds": 424.04,
+   "end_seconds": 424.28,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "talk",
+   "start_seconds": 424.28,
+   "end_seconds": 424.5,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "to",
+   "start_seconds": 424.5,
+   "end_seconds": 424.7,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "all",
+   "start_seconds": 424.7,
+   "end_seconds": 424.88,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "of",
+   "start_seconds": 424.88,
+   "end_seconds": 425.0,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "them",
+   "start_seconds": 425.0,
+   "end_seconds": 425.14,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "in",
+   "start_seconds": 425.14,
+   "end_seconds": 425.28,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 425.28,
+   "end_seconds": 425.42,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "compressed",
+   "start_seconds": 425.42,
+   "end_seconds": 425.78,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "three",
+   "start_seconds": 425.78,
+   "end_seconds": 426.06,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "-week",
+   "start_seconds": 426.06,
+   "end_seconds": 426.28,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "window",
+   "start_seconds": 426.28,
+   "end_seconds": 426.7,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "so",
+   "start_seconds": 426.7,
+   "end_seconds": 427.18,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "that",
+   "start_seconds": 427.18,
+   "end_seconds": 427.4,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "any",
+   "start_seconds": 427.4,
+   "end_seconds": 427.58,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "interest",
+   "start_seconds": 427.58,
+   "end_seconds": 427.94,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "arrives",
+   "start_seconds": 427.94,
+   "end_seconds": 428.32,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "around",
+   "start_seconds": 428.32,
+   "end_seconds": 428.64,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "the",
+   "start_seconds": 428.64,
+   "end_seconds": 428.82,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "same",
+   "start_seconds": 428.82,
+   "end_seconds": 429.06,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "time.",
+   "start_seconds": 429.06,
+   "end_seconds": 430.08,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Compressing",
+   "start_seconds": 430.74,
+   "end_seconds": 431.18,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "the",
+   "start_seconds": 431.18,
+   "end_seconds": 431.52,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "process",
+   "start_seconds": 431.52,
+   "end_seconds": 432.02,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "is",
+   "start_seconds": 432.02,
+   "end_seconds": 432.28,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "smart.",
+   "start_seconds": 432.28,
+   "end_seconds": 432.72,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "It",
+   "start_seconds": 433.3,
+   "end_seconds": 433.46,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "creates",
+   "start_seconds": 433.46,
+   "end_seconds": 433.98,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "healthy",
+   "start_seconds": 433.98,
+   "end_seconds": 434.5,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "competition.",
+   "start_seconds": 434.5,
+   "end_seconds": 435.32,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "And",
+   "start_seconds": 436.16,
+   "end_seconds": 436.36,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "if",
+   "start_seconds": 436.36,
+   "end_seconds": 436.6,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "the",
+   "start_seconds": 436.6,
+   "end_seconds": 436.82,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "Series",
+   "start_seconds": 436.82,
+   "end_seconds": 437.14,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "A",
+   "start_seconds": 437.14,
+   "end_seconds": 437.48,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "does",
+   "start_seconds": 437.48,
+   "end_seconds": 437.68,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "not",
+   "start_seconds": 437.68,
+   "end_seconds": 437.96,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "come",
+   "start_seconds": 437.96,
+   "end_seconds": 438.34,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "together",
+   "start_seconds": 438.34,
+   "end_seconds": 438.9,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "by",
+   "start_seconds": 438.9,
+   "end_seconds": 439.18,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "then,",
+   "start_seconds": 439.18,
+   "end_seconds": 439.52,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "would",
+   "start_seconds": 439.78,
+   "end_seconds": 439.86,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "you",
+   "start_seconds": 439.86,
+   "end_seconds": 440.1,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "reconsider",
+   "start_seconds": 440.1,
+   "end_seconds": 440.78,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "the",
+   "start_seconds": 440.78,
+   "end_seconds": 441.18,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "bridge",
+   "start_seconds": 441.18,
+   "end_seconds": 441.42,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "round",
+   "start_seconds": 441.42,
+   "end_seconds": 441.84,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "I",
+   "start_seconds": 441.84,
+   "end_seconds": 442.08,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "suggested?",
+   "start_seconds": 442.08,
+   "end_seconds": 442.66,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "If",
+   "start_seconds": 444.06,
+   "end_seconds": 444.62,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "we",
+   "start_seconds": 444.62,
+   "end_seconds": 444.82,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "reach",
+   "start_seconds": 444.82,
+   "end_seconds": 445.06,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "May",
+   "start_seconds": 445.06,
+   "end_seconds": 445.26,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "with",
+   "start_seconds": 445.26,
+   "end_seconds": 445.44,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "no",
+   "start_seconds": 445.44,
+   "end_seconds": 445.7,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "serious",
+   "start_seconds": 445.7,
+   "end_seconds": 446.12,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "interest,",
+   "start_seconds": 446.12,
+   "end_seconds": 446.54,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "then",
+   "start_seconds": 446.86,
+   "end_seconds": 447.1,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "yes,",
+   "start_seconds": 447.1,
+   "end_seconds": 447.38,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "I",
+   "start_seconds": 447.68,
+   "end_seconds": 447.84,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "would",
+   "start_seconds": 447.84,
+   "end_seconds": 448.0,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "call",
+   "start_seconds": 448.0,
+   "end_seconds": 448.22,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "our",
+   "start_seconds": 448.22,
+   "end_seconds": 448.44,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "existing",
+   "start_seconds": 448.44,
+   "end_seconds": 448.88,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "investors,",
+   "start_seconds": 448.88,
+   "end_seconds": 449.48,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "but",
+   "start_seconds": 449.48,
+   "end_seconds": 449.98,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "I",
+   "start_seconds": 449.98,
+   "end_seconds": 450.22,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "want",
+   "start_seconds": 450.22,
+   "end_seconds": 450.42,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "that",
+   "start_seconds": 450.42,
+   "end_seconds": 450.64,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "to",
+   "start_seconds": 450.64,
+   "end_seconds": 450.76,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "be",
+   "start_seconds": 450.76,
+   "end_seconds": 450.92,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "the",
+   "start_seconds": 450.92,
+   "end_seconds": 451.06,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "backup",
+   "start_seconds": 451.06,
+   "end_seconds": 451.38,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "plan,",
+   "start_seconds": 451.38,
+   "end_seconds": 451.86,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "not",
+   "start_seconds": 452.14,
+   "end_seconds": 452.34,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "the",
+   "start_seconds": 452.34,
+   "end_seconds": 452.54,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "starting",
+   "start_seconds": 452.54,
+   "end_seconds": 452.88,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "point.",
+   "start_seconds": 452.88,
+   "end_seconds": 453.26,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "You",
+   "start_seconds": 453.6,
+   "end_seconds": 453.7,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "and",
+   "start_seconds": 453.7,
+   "end_seconds": 453.84,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "I",
+   "start_seconds": 453.84,
+   "end_seconds": 454.06,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "can",
+   "start_seconds": 454.06,
+   "end_seconds": 454.24,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "keep",
+   "start_seconds": 454.24,
+   "end_seconds": 454.48,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "disagreeing",
+   "start_seconds": 454.48,
+   "end_seconds": 455.14,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "about",
+   "start_seconds": 455.14,
+   "end_seconds": 455.34,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "that.",
+   "start_seconds": 455.34,
+   "end_seconds": 456.22,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Fair",
+   "start_seconds": 456.96,
+   "end_seconds": 457.18,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "enough.",
+   "start_seconds": 457.18,
+   "end_seconds": 457.56,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "Last",
+   "start_seconds": 458.28,
+   "end_seconds": 458.46,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "question.",
+   "start_seconds": 458.46,
+   "end_seconds": 459.12,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "What",
+   "start_seconds": 459.86,
+   "end_seconds": 459.98,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "is",
+   "start_seconds": 459.98,
+   "end_seconds": 460.14,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "one",
+   "start_seconds": 460.14,
+   "end_seconds": 460.42,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "thing",
+   "start_seconds": 460.42,
+   "end_seconds": 460.74,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "you",
+   "start_seconds": 460.74,
+   "end_seconds": 461.0,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "wish",
+   "start_seconds": 461.0,
+   "end_seconds": 461.14,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "you",
+   "start_seconds": 461.14,
+   "end_seconds": 461.38,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "had",
+   "start_seconds": 461.38,
+   "end_seconds": 461.54,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "known",
+   "start_seconds": 461.54,
+   "end_seconds": 461.8,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "before",
+   "start_seconds": 461.8,
+   "end_seconds": 462.28,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "raising",
+   "start_seconds": 462.28,
+   "end_seconds": 462.76,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "your",
+   "start_seconds": 462.76,
+   "end_seconds": 463.08,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "seed",
+   "start_seconds": 463.08,
+   "end_seconds": 463.36,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "round?",
+   "start_seconds": 463.36,
+   "end_seconds": 463.84,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "That",
+   "start_seconds": 465.54,
+   "end_seconds": 465.78,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "fundraising",
+   "start_seconds": 465.78,
+   "end_seconds": 466.18,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "is",
+   "start_seconds": 466.18,
+   "end_seconds": 466.52,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 466.52,
+   "end_seconds": 466.68,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "sales",
+   "start_seconds": 466.68,
+   "end_seconds": 466.94,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "process.",
+   "start_seconds": 466.94,
+   "end_seconds": 467.44,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "You",
+   "start_seconds": 467.9,
+   "end_seconds": 468.02,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "need",
+   "start_seconds": 468.02,
+   "end_seconds": 468.22,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 468.22,
+   "end_seconds": 468.36,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "pipeline,",
+   "start_seconds": 468.36,
+   "end_seconds": 468.74,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "you",
+   "start_seconds": 469.28,
+   "end_seconds": 469.44,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "need",
+   "start_seconds": 469.44,
+   "end_seconds": 469.68,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "follow",
+   "start_seconds": 469.68,
+   "end_seconds": 469.94,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "-up,",
+   "start_seconds": 469.94,
+   "end_seconds": 470.32,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "and",
+   "start_seconds": 470.56,
+   "end_seconds": 470.68,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "you",
+   "start_seconds": 470.68,
+   "end_seconds": 470.82,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "need",
+   "start_seconds": 470.82,
+   "end_seconds": 471.02,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "to",
+   "start_seconds": 471.02,
+   "end_seconds": 471.18,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "qualify",
+   "start_seconds": 471.18,
+   "end_seconds": 471.56,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "your",
+   "start_seconds": 471.56,
+   "end_seconds": 471.94,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "leads,",
+   "start_seconds": 471.94,
+   "end_seconds": 472.28,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "just",
+   "start_seconds": 472.6,
+   "end_seconds": 472.82,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "like",
+   "start_seconds": 472.82,
+   "end_seconds": 473.12,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "selling",
+   "start_seconds": 473.12,
+   "end_seconds": 473.42,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "software.",
+   "start_seconds": 473.42,
+   "end_seconds": 474.04,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "The",
+   "start_seconds": 474.44,
+   "end_seconds": 474.56,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "first",
+   "start_seconds": 474.56,
+   "end_seconds": 474.8,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "time",
+   "start_seconds": 474.8,
+   "end_seconds": 475.24,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "I",
+   "start_seconds": 475.24,
+   "end_seconds": 475.68,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "treated",
+   "start_seconds": 475.68,
+   "end_seconds": 476.0,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "it",
+   "start_seconds": 476.0,
+   "end_seconds": 476.16,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "like",
+   "start_seconds": 476.16,
+   "end_seconds": 476.36,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "a",
+   "start_seconds": 476.36,
+   "end_seconds": 476.56,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "series",
+   "start_seconds": 476.56,
+   "end_seconds": 476.74,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "of",
+   "start_seconds": 476.74,
+   "end_seconds": 477.06,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "polite",
+   "start_seconds": 477.06,
+   "end_seconds": 477.34,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "conversations,",
+   "start_seconds": 477.34,
+   "end_seconds": 478.06,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "and",
+   "start_seconds": 478.06,
+   "end_seconds": 478.74,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "it",
+   "start_seconds": 478.74,
+   "end_seconds": 478.9,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "took",
+   "start_seconds": 478.9,
+   "end_seconds": 479.08,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "twice",
+   "start_seconds": 479.08,
+   "end_seconds": 479.38,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "as",
+   "start_seconds": 479.38,
+   "end_seconds": 479.64,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "long",
+   "start_seconds": 479.64,
+   "end_seconds": 479.84,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "as",
+   "start_seconds": 479.84,
+   "end_seconds": 480.02,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "it",
+   "start_seconds": 480.02,
+   "end_seconds": 480.18,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "should",
+   "start_seconds": 480.18,
+   "end_seconds": 480.36,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "have.",
+   "start_seconds": 480.36,
+   "end_seconds": 480.76,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Great",
+   "start_seconds": 481.9,
+   "end_seconds": 482.04,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "advice.",
+   "start_seconds": 482.04,
+   "end_seconds": 482.48,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "Alice,",
+   "start_seconds": 483.4,
+   "end_seconds": 483.5,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "thank",
+   "start_seconds": 483.98,
+   "end_seconds": 484.2,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "you",
+   "start_seconds": 484.2,
+   "end_seconds": 484.48,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "for",
+   "start_seconds": 484.48,
+   "end_seconds": 484.74,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "being",
+   "start_seconds": 484.74,
+   "end_seconds": 485.02,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "so",
+   "start_seconds": 485.02,
+   "end_seconds": 485.36,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "open",
+   "start_seconds": 485.36,
+   "end_seconds": 485.78,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "about",
+   "start_seconds": 485.78,
+   "end_seconds": 486.06,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "the",
+   "start_seconds": 486.06,
+   "end_seconds": 486.38,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "numbers.",
+   "start_seconds": 486.38,
+   "end_seconds": 486.74,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "Good",
+   "start_seconds": 487.48,
+   "end_seconds": 487.72,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "luck",
+   "start_seconds": 487.72,
+   "end_seconds": 487.96,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "with",
+   "start_seconds": 487.96,
+   "end_seconds": 488.24,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "the",
+   "start_seconds": 488.24,
+   "end_seconds": 488.44,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "Series",
+   "start_seconds": 488.44,
+   "end_seconds": 488.8,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "A.",
+   "start_seconds": 488.8,
+   "end_seconds": 489.24,
+   "speaker": "SPEAKER_01"
+  },
+  {
+   "text": "Thanks,",
+   "start_seconds": 490.66,
+   "end_seconds": 491.22,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "Bob.",
+   "start_seconds": 491.68,
+   "end_seconds": 491.74,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "I'll",
+   "start_seconds": 492.1,
+   "end_seconds": 492.3,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "let",
+   "start_seconds": 492.3,
+   "end_seconds": 492.42,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "you",
+   "start_seconds": 492.42,
+   "end_seconds": 492.6,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "know",
+   "start_seconds": 492.6,
+   "end_seconds": 492.78,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "how",
+   "start_seconds": 492.78,
+   "end_seconds": 492.96,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "it",
+   "start_seconds": 492.96,
+   "end_seconds": 493.14,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "goes",
+   "start_seconds": 493.14,
+   "end_seconds": 493.34,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "after",
+   "start_seconds": 493.34,
+   "end_seconds": 493.74,
+   "speaker": "SPEAKER_00"
+  },
+  {
+   "text": "June.",
+   "start_seconds": 493.74,
+   "end_seconds": 494.04,
+   "speaker": "SPEAKER_00"
+  }
+ ]
+}

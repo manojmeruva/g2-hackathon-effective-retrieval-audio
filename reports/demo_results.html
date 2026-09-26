@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Audio Search Results</title>
+<style>
+:root { color-scheme: light dark; --bg: #fafafa; --card: #fff; --text: #1b1b1f;
+  --muted: #5f6368; --accent: #1a56db; --border: #e2e4e8; --match: #eef3ff; }
+@media (prefers-color-scheme: dark) { :root { --bg: #121316; --card: #1c1d21;
+  --text: #e8e8ea; --muted: #a0a4ab; --accent: #8ab4ff; --border: #2e3036; --match: #1f2940; } }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 15px/1.5 system-ui, -apple-system, sans-serif; }
+main { max-width: 820px; margin: 0 auto; padding: 24px 16px 48px; }
+h1 { font-size: 20px; margin: 0 0 4px; }
+.query { color: var(--muted); margin: 0 0 24px; }
+.result { background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+  padding: 16px; margin-bottom: 16px; }
+.meta { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 13px; color: var(--muted); }
+.meta strong { color: var(--text); }
+.scores { font-variant-numeric: tabular-nums; }
+.context { margin: 12px 0; }
+.line { padding: 4px 8px; border-radius: 6px; }
+.line.match { background: var(--match); }
+.line .who { font-size: 12px; color: var(--muted); }
+audio { width: 100%; margin-top: 8px; }
+button { background: var(--accent); color: var(--bg); border: 0; border-radius: 6px;
+  padding: 6px 12px; font: inherit; cursor: pointer; }
+</style>
+</head>
+<body>
+<main>
+<h1>Audio search results</h1>
+<p class="query">Query: “What did they say about reducing infrastructure costs?”</p>
+<section class="result">
+<div class="meta">
+<strong>#1 conversation_03</strong>
+<span>06:26–06:42</span>
+<span>SPEAKER_01</span>
+<span>segment conversation_03:26</span>
+</div>
+<div class="meta scores">keyword 0.00 · semantic 1.00
+ · hybrid 0.03 · rerank -0.66</div>
+<div class="context"><div class="line"><div class="who">06:23 · SPEAKER_00</div>Where did we end up?</div>
+<div class="line match"><div class="who">06:26 · SPEAKER_01</div>Today our monthly infrastructure spend is about 18 % lower than the data center was and that&#x27;s before counting the hardware refresh we no longer have to buy. So the savings are real, but they didn&#x27;t come for free. We had to work for them after the migration.</div>
+<div class="line"><div class="who">06:43 · SPEAKER_00</div>I think that&#x27;s the most important lesson. The cloud doesn&#x27;t make things cheaper by itself. It makes cost something you can control if you pay attention to it.</div></div>
+<button data-player="player-1" data-start="386.4">▶ Jump to 06:26</button>
+<audio id="player-1" controls preload="none" src="../data/audio/conversation_03.wav#t=386.4"></audio>
+</section>
+<section class="result">
+<div class="meta">
+<strong>#2 conversation_01</strong>
+<span>02:33–02:42</span>
+<span>SPEAKER_01</span>
+<span>segment conversation_01:10</span>
+</div>
+<div class="meta scores">keyword 0.00 · semantic 0.82
+ · hybrid 0.03 · rerank -6.26</div>
+<div class="context"><div class="line"><div class="who">02:14 · SPEAKER_00</div>And I still disagree with that. Bob, a bridge round sends a signal. When new investors look at the cap table and see a bridge right before the Series A, the first question they ask is why the company needed extra money. It can look like we missed our plan. I&#x27;d rather extend runway by cutting our own costs.</div>
+<div class="line match"><div class="who">02:33 · SPEAKER_01</div>Cutting costs where, though? You just told me most of the team was engineers. You don&#x27;t want to slow down the product right before a raise.</div>
+<div class="line"><div class="who">02:44 · SPEAKER_00</div>No, and I&#x27;m not planning to cut people. The biggest line item after payroll is our hosting bill. When we started, we put everything on Amazon Web Services with no real planning. We had oversized servers running all night, test environments nobody had touched in months, and a PostgreSQL database that was provisioned for 10 times our actual traffic.</div></div>
+<button data-player="player-2" data-start="153.4">▶ Jump to 02:33</button>
+<audio id="player-2" controls preload="none" src="../data/audio/conversation_01.wav#t=153.4"></audio>
+</section>
+<section class="result">
+<div class="meta">
+<strong>#3 conversation_01</strong>
+<span>02:14–02:31</span>
+<span>SPEAKER_00</span>
+<span>segment conversation_01:9</span>
+</div>
+<div class="meta scores">keyword 0.00 · semantic 0.56
+ · hybrid 0.03 · rerank -6.42</div>
+<div class="context"><div class="line"><div class="who">01:45 · SPEAKER_01</div>Here is where I want to push a little. My proposal, and I said this to you privately last month, is that you should raise a bridge round from your existing investors before you go out for the Series A small bridge. Maybe $750 ,000 on a safe note would give you another five or six months of breathing room. You would negotiate from a position of strength instead of desperation.</div>
+<div class="line match"><div class="who">02:14 · SPEAKER_00</div>And I still disagree with that. Bob, a bridge round sends a signal. When new investors look at the cap table and see a bridge right before the Series A, the first question they ask is why the company needed extra money. It can look like we missed our plan. I&#x27;d rather extend runway by cutting our own costs.</div>
+<div class="line"><div class="who">02:33 · SPEAKER_01</div>Cutting costs where, though? You just told me most of the team was engineers. You don&#x27;t want to slow down the product right before a raise.</div></div>
+<button data-player="player-3" data-start="134.8">▶ Jump to 02:14</button>
+<audio id="player-3" controls preload="none" src="../data/audio/conversation_01.wav#t=134.8"></audio>
+</section>
+</main>
+<script>
+document.querySelectorAll("button[data-start]").forEach((button) => {
+  button.addEventListener("click", () => {
+    const player = document.getElementById(button.dataset.player);
+    player.currentTime = Number(button.dataset.start);
+    player.play();
+  });
+});
+</script>
+</body>
+</html>

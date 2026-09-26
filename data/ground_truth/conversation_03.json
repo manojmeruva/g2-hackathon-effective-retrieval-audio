@@ -1,0 +1,264 @@
+{
+  "conversation_id": "conversation_03",
+  "title": "Build and Run: A Cloud Migration Retrospective",
+  "topic": "cloud migration",
+  "audio_file": "data/audio/conversation_03.wav",
+  "speakers": [
+    "Priya",
+    "James"
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "James",
+      "start_seconds": 0.0,
+      "end_seconds": 21.47,
+      "text": "Welcome to Build and Run. I'm James, chief technology officer at Harbor Goods, an online retailer for home and kitchen products. Today I'm joined by Priya, our head of platform engineering, to do an honest retrospective on our cloud migration. Priya, thanks for doing this."
+    },
+    {
+      "index": 1,
+      "speaker": "Priya",
+      "start_seconds": 22.47,
+      "end_seconds": 30.446,
+      "text": "Happy to, James. It's been almost exactly a year since we started, so it feels like the right time to look back."
+    },
+    {
+      "index": 2,
+      "speaker": "James",
+      "start_seconds": 31.446,
+      "end_seconds": 46.149,
+      "text": "Let's set the scene. A year ago, everything we ran lived in a single data center outside Columbus. Our own servers, our own storage, our own network gear. Why did we decide to leave?"
+    },
+    {
+      "index": 3,
+      "speaker": "Priya",
+      "start_seconds": 47.149,
+      "end_seconds": 70.783,
+      "text": "There were three reasons. First, the hardware was old. About half the servers were more than six years old and out of warranty. Second, the lease on the data center space expired on March thirty first, and renewing it meant a five year commitment. And third, every holiday season we had to buy enough capacity for Black Friday, and then that hardware sat mostly idle for the other eleven months."
+    },
+    {
+      "index": 4,
+      "speaker": "James",
+      "start_seconds": 71.783,
+      "end_seconds": 79.765,
+      "text": "That third point was the one that convinced the board. We were paying all year for a peak that lasts a few weeks."
+    },
+    {
+      "index": 5,
+      "speaker": "Priya",
+      "start_seconds": 80.765,
+      "end_seconds": 86.507,
+      "text": "Exactly. With the cloud we can scale up for the holiday traffic and scale back down in January."
+    },
+    {
+      "index": 6,
+      "speaker": "James",
+      "start_seconds": 87.507,
+      "end_seconds": 107.697,
+      "text": "Now, I'll own my part of the story. At the start, I proposed a pure lift and shift. Take every virtual machine, copy it into Amazon Web Services as it is, and switch over. My reasoning was that the lease deadline was fixed and we couldn't afford a long project."
+    },
+    {
+      "index": 7,
+      "speaker": "Priya",
+      "start_seconds": 108.697,
+      "end_seconds": 142.796,
+      "text": "And I disagreed, pretty strongly. Lift and shift works for a lot of things, and in the end we did use it for most of our internal applications. But for our core database, it would have been a mistake. We run PostgreSQL, and our main instance had grown to about four terabytes. On our own hardware we had a very careful setup with fast local disks. If we had copied that virtual machine into the cloud as is, we would have needed huge, expensive instances just to get similar disk performance, and we would still be managing backups and failover ourselves."
+    },
+    {
+      "index": 8,
+      "speaker": "James",
+      "start_seconds": 143.796,
+      "end_seconds": 146.515,
+      "text": "So what did you propose instead?"
+    },
+    {
+      "index": 9,
+      "speaker": "Priya",
+      "start_seconds": 147.515,
+      "end_seconds": 186.583,
+      "text": "I proposed moving the database to Amazon RDS for PostgreSQL, the managed version. We'd give up some control, but we'd get automated backups, point in time recovery, and failover to a standby in another availability zone without building it ourselves. The tradeoff is that the migration is harder, because you can't simply copy a disk image. We had to use logical replication to keep the new database in sync with the old one for several weeks before the cutover."
+    },
+    {
+      "index": 10,
+      "speaker": "James",
+      "start_seconds": 187.583,
+      "end_seconds": 197.47,
+      "text": "And the compromise we reached was lift and shift for the long tail of internal tools, and a proper re-platforming for the database and the storefront."
+    },
+    {
+      "index": 11,
+      "speaker": "Priya",
+      "start_seconds": 198.47,
+      "end_seconds": 212.591,
+      "text": "Right. The storefront we moved onto Kubernetes, using Amazon's managed Kubernetes service. It was already packaged in containers, so that was mostly a matter of writing the deployment configuration and setting up autoscaling."
+    },
+    {
+      "index": 12,
+      "speaker": "James",
+      "start_seconds": 213.591,
+      "end_seconds": 218.511,
+      "text": "Talk about the tooling. How did we keep all of this repeatable?"
+    },
+    {
+      "index": 13,
+      "speaker": "Priya",
+      "start_seconds": 219.511,
+      "end_seconds": 240.938,
+      "text": "Everything was defined in Terraform. Networks, databases, Kubernetes clusters, permissions. That was a rule I set on the first day. Nobody creates infrastructure by clicking in the console. It felt slow at first, but it meant we could tear down and rebuild a whole test environment in about forty minutes, and it gave us a clear record of every change."
+    },
+    {
+      "index": 14,
+      "speaker": "James",
+      "start_seconds": 241.938,
+      "end_seconds": 249.089,
+      "text": "How did we handle the network connection between the data center and Amazon during the transition?"
+    },
+    {
+      "index": 15,
+      "speaker": "Priya",
+      "start_seconds": 250.089,
+      "end_seconds": 270.983,
+      "text": "We set up a dedicated private connection between the two, so traffic during the replication period didn't travel over the public internet. It took almost two months to provision, which surprised us. If I did it again, I'd order that connection on the very first day of the project, because it was on the critical path for the database migration."
+    },
+    {
+      "index": 16,
+      "speaker": "James",
+      "start_seconds": 271.983,
+      "end_seconds": 277.213,
+      "text": "Let's talk about the cutover. What actually happened on the night?"
+    },
+    {
+      "index": 17,
+      "speaker": "Priya",
+      "start_seconds": 278.213,
+      "end_seconds": 298.787,
+      "text": "We cut over on a Sunday night in February, about six weeks before the lease deadline. We put the storefront into maintenance mode at eleven p.m., stopped writes to the old database, waited for replication to catch up, and then pointed the applications at the new database. The whole thing was planned for four hours. It took just under three."
+    },
+    {
+      "index": 18,
+      "speaker": "James",
+      "start_seconds": 299.787,
+      "end_seconds": 304.489,
+      "text": "I remember being on the call and expecting something to go wrong."
+    },
+    {
+      "index": 19,
+      "speaker": "Priya",
+      "start_seconds": 305.489,
+      "end_seconds": 323.378,
+      "text": "Something did go wrong, just not that night. On Tuesday morning, we discovered that a nightly reporting job was still pointed at the old data center. It had been silently failing since the cutover. That's the kind of thing you only find when you move. All the dependencies that nobody wrote down."
+    },
+    {
+      "index": 20,
+      "speaker": "James",
+      "start_seconds": 324.378,
+      "end_seconds": 335.048,
+      "text": "Now the question everyone asks. What did it cost? Because I've heard many stories where the cloud ends up more expensive than the data center."
+    },
+    {
+      "index": 21,
+      "speaker": "Priya",
+      "start_seconds": 336.048,
+      "end_seconds": 350.624,
+      "text": "The first three months were more expensive, honestly. Our bill was about twenty percent higher than what we had been paying for the data center, because we were running both environments in parallel, and because many of the lifted and shifted machines were oversized."
+    },
+    {
+      "index": 22,
+      "speaker": "James",
+      "start_seconds": 351.624,
+      "end_seconds": 353.639,
+      "text": "And then what changed?"
+    },
+    {
+      "index": 23,
+      "speaker": "Priya",
+      "start_seconds": 354.639,
+      "end_seconds": 382.76,
+      "text": "We did a focused cost optimization project. We rightsized the instances based on actual usage, bought reserved instances for the baseline capacity that runs all year, and let Kubernetes autoscaling handle the peaks. We also found that data transfer charges, especially egress fees for traffic leaving Amazon, were much higher than we had modeled. Putting a content delivery network in front of the storefront images cut those charges by more than half."
+    },
+    {
+      "index": 24,
+      "speaker": "James",
+      "start_seconds": 383.76,
+      "end_seconds": 385.518,
+      "text": "Where did we end up?"
+    },
+    {
+      "index": 25,
+      "speaker": "Priya",
+      "start_seconds": 386.518,
+      "end_seconds": 402.337,
+      "text": "Today our monthly infrastructure spend is about eighteen percent lower than the data center was, and that's before counting the hardware refresh we no longer have to buy. So the savings are real, but they didn't come for free. We had to work for them after the migration."
+    },
+    {
+      "index": 26,
+      "speaker": "James",
+      "start_seconds": 403.337,
+      "end_seconds": 415.224,
+      "text": "I think that's the most important lesson. The cloud doesn't make things cheaper by itself. It makes cost something you can control, if you pay attention to it."
+    },
+    {
+      "index": 27,
+      "speaker": "Priya",
+      "start_seconds": 416.224,
+      "end_seconds": 433.102,
+      "text": "Agreed. The other lesson is about people. Half of our operations team had spent their careers on physical hardware. We invested in training and certification, and we paired them with engineers who already knew Kubernetes. Nobody left the team because of the migration, which I'm proud of."
+    },
+    {
+      "index": 28,
+      "speaker": "James",
+      "start_seconds": 434.102,
+      "end_seconds": 437.46,
+      "text": "Was there anything we decided not to move?"
+    },
+    {
+      "index": 29,
+      "speaker": "Priya",
+      "start_seconds": 438.46,
+      "end_seconds": 452.032,
+      "text": "Yes. The warehouse scanning system stays on a small server in the warehouse itself, because it has to keep working even if the internet connection goes down. Not everything belongs in the cloud, and it's fine to say that."
+    },
+    {
+      "index": 30,
+      "speaker": "James",
+      "start_seconds": 453.032,
+      "end_seconds": 467.286,
+      "text": "Looking back at the deadline we discussed earlier, the end of the lease on March thirty first, we finished with about six weeks to spare. If we had tried a full re-architecture of everything, we would not have made it."
+    },
+    {
+      "index": 31,
+      "speaker": "Priya",
+      "start_seconds": 468.286,
+      "end_seconds": 475.897,
+      "text": "And if we had done a pure lift and shift, we would have finished faster but paid for it every month afterward. The mix was the right call."
+    },
+    {
+      "index": 32,
+      "speaker": "James",
+      "start_seconds": 476.897,
+      "end_seconds": 482.287,
+      "text": "Last question. What advice would you give a team starting this today?"
+    },
+    {
+      "index": 33,
+      "speaker": "Priya",
+      "start_seconds": 483.287,
+      "end_seconds": 503.98,
+      "text": "Inventory everything before you move anything, including the scheduled jobs and the scripts people forgot about. Decide for each application whether to lift and shift or re-platform, instead of one rule for everything. And put cost monitoring in place on day one, not after the first surprising bill."
+    },
+    {
+      "index": 34,
+      "speaker": "James",
+      "start_seconds": 504.98,
+      "end_seconds": 511.404,
+      "text": "Priya, thank you. And thank you to the whole platform team who made this happen."
+    },
+    {
+      "index": 35,
+      "speaker": "Priya",
+      "start_seconds": 512.404,
+      "end_seconds": 515.703,
+      "text": "Thanks, James. It was a hard year, but a good one."
+    }
+  ]
+}

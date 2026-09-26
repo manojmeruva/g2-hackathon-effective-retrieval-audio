@@ -1,0 +1,278 @@
+{
+  "conversation_id": "conversation_05",
+  "title": "The Operations Desk: Bringing AI into Customer Support",
+  "topic": "AI adoption",
+  "audio_file": "data/audio/conversation_05.wav",
+  "speakers": [
+    "Lisa",
+    "Mark"
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "Lisa",
+      "start_seconds": 0.0,
+      "end_seconds": 20.565,
+      "text": "Welcome to The Operations Desk, a podcast about running a company day to day. I'm Lisa, chief operating officer at Northshore Insurance. Today I'm with Mark, who leads our data science team, to talk about how we're adopting AI across the business, and what we're getting wrong. Mark, welcome."
+    },
+    {
+      "index": 1,
+      "speaker": "Mark",
+      "start_seconds": 21.565,
+      "end_seconds": 28.459,
+      "text": "Thanks, Lisa. I appreciate that you included what we're getting wrong in the introduction."
+    },
+    {
+      "index": 2,
+      "speaker": "Lisa",
+      "start_seconds": 29.459,
+      "end_seconds": 50.863,
+      "text": "Let's start with why. Our customer service team handles about forty thousand conversations a month, through chat, email, and phone. The average response time for email is almost two days. And most of the questions are repetitive. What does my policy cover, how do I file a claim, when will my payment arrive."
+    },
+    {
+      "index": 3,
+      "speaker": "Mark",
+      "start_seconds": 51.863,
+      "end_seconds": 66.309,
+      "text": "And the answers to most of those questions already exist in our policy documents and our knowledge base. The problem is that finding the right paragraph in a forty page policy takes an agent several minutes."
+    },
+    {
+      "index": 4,
+      "speaker": "Lisa",
+      "start_seconds": 67.309,
+      "end_seconds": 82.259,
+      "text": "So my initial proposal, which I made to the leadership team in the spring, was to launch an AI assistant on our website for all customers by the end of the year. Customers could ask anything about their policy and get an instant answer."
+    },
+    {
+      "index": 5,
+      "speaker": "Mark",
+      "start_seconds": 83.259,
+      "end_seconds": 114.201,
+      "text": "And I disagreed with launching it to everyone at once. Large language models are very good at producing fluent answers, but they sometimes produce confident answers that are wrong. People call these hallucinations. In insurance, a wrong answer about coverage isn't just embarrassing. If the assistant tells a customer that flood damage is covered when it isn't, we could face a complaint to the regulator, or even a lawsuit."
+    },
+    {
+      "index": 6,
+      "speaker": "Lisa",
+      "start_seconds": 115.201,
+      "end_seconds": 121.033,
+      "text": "Which is a risk I hadn't fully appreciated at the time. So what did you propose instead?"
+    },
+    {
+      "index": 7,
+      "speaker": "Mark",
+      "start_seconds": 122.033,
+      "end_seconds": 145.52,
+      "text": "A pilot. Start with the assistant helping our own support agents rather than talking directly to customers. The agent sees a suggested answer with links to the exact policy sections it came from, and decides whether to send it. That way a human checks every answer, and we collect data on how often the suggestions are right."
+    },
+    {
+      "index": 8,
+      "speaker": "Lisa",
+      "start_seconds": 146.52,
+      "end_seconds": 149.953,
+      "text": "And the results from the first two months have been encouraging."
+    },
+    {
+      "index": 9,
+      "speaker": "Mark",
+      "start_seconds": 150.953,
+      "end_seconds": 168.12,
+      "text": "They have. Agents accept the suggested answer without edits about sixty eight percent of the time, and with small edits another twenty percent of the time. The average handling time for an email dropped from eleven minutes to about six."
+    },
+    {
+      "index": 10,
+      "speaker": "Lisa",
+      "start_seconds": 169.12,
+      "end_seconds": 170.615,
+      "text": "And where has it gone wrong?"
+    },
+    {
+      "index": 11,
+      "speaker": "Mark",
+      "start_seconds": 171.615,
+      "end_seconds": 198.35,
+      "text": "Mostly with older policies. We still have customers on policies written before twenty eighteen, and some of those documents are scanned paper with poor text quality. The search step couldn't find the right passages, so the suggestions were vague. We're re-digitizing those documents now, and until that's finished, the assistant simply says it can't answer for those policies."
+    },
+    {
+      "index": 12,
+      "speaker": "Lisa",
+      "start_seconds": 199.35,
+      "end_seconds": 205.075,
+      "text": "Explain the technical approach, because I think many people assume we trained our own model."
+    },
+    {
+      "index": 13,
+      "speaker": "Mark",
+      "start_seconds": 206.075,
+      "end_seconds": 237.322,
+      "text": "We didn't, and that was a deliberate decision. There were two options. One was fine-tuning, which means training a model further on our own data so it learns our products. The other is called retrieval augmented generation. Instead of changing the model, we search our policy documents for the passages that are relevant to the question, and give those passages to the model along with the question. The model answers only from what we retrieved."
+    },
+    {
+      "index": 14,
+      "speaker": "Lisa",
+      "start_seconds": 238.322,
+      "end_seconds": 241.535,
+      "text": "And why did you choose retrieval over fine-tuning?"
+    },
+    {
+      "index": 15,
+      "speaker": "Mark",
+      "start_seconds": 242.535,
+      "end_seconds": 266.614,
+      "text": "Three reasons. First, our policies change every quarter, and with retrieval we just update the documents instead of retraining. Second, retrieval lets us show the source, so the agent can verify the answer. And third, it's much cheaper. Fine-tuning a model and hosting it would have required dedicated GPUs."
+    },
+    {
+      "index": 16,
+      "speaker": "Lisa",
+      "start_seconds": 267.614,
+      "end_seconds": 272.891,
+      "text": "Let's talk about cost, since that's my world. What does this actually cost to run?"
+    },
+    {
+      "index": 17,
+      "speaker": "Mark",
+      "start_seconds": 273.891,
+      "end_seconds": 298.513,
+      "text": "Right now, about four cents per conversation for the model calls. We store the document embeddings in our existing PostgreSQL database using a vector extension, so we didn't need a new database. And since we moved our infrastructure to the cloud two years ago, we can rent GPUs by the hour for experiments instead of buying them."
+    },
+    {
+      "index": 18,
+      "speaker": "Lisa",
+      "start_seconds": 299.513,
+      "end_seconds": 309.199,
+      "text": "Four cents, compared to what we pay for an agent's time, is a very good trade. But the question our board keeps asking is about data privacy."
+    },
+    {
+      "index": 19,
+      "speaker": "Mark",
+      "start_seconds": 310.199,
+      "end_seconds": 333.509,
+      "text": "That was the other major decision. We use a hosted model, but through an enterprise agreement where our data isn't used to train the provider's models and isn't stored after the request is processed. We also remove personal information, like names, policy numbers, and dates of birth, before anything leaves our systems."
+    },
+    {
+      "index": 20,
+      "speaker": "Lisa",
+      "start_seconds": 334.509,
+      "end_seconds": 343.818,
+      "text": "I'd add that legal and compliance reviewed that setup for about six weeks before we approved it. It was slower than I wanted, but I'm glad we did it."
+    },
+    {
+      "index": 21,
+      "speaker": "Mark",
+      "start_seconds": 344.818,
+      "end_seconds": 353.649,
+      "text": "It was worth it. They found two places where claim notes contained medical information that our redaction wasn't catching."
+    },
+    {
+      "index": 22,
+      "speaker": "Lisa",
+      "start_seconds": 354.649,
+      "end_seconds": 360.986,
+      "text": "Did we consider running an open-source model ourselves, to keep everything inside our own systems?"
+    },
+    {
+      "index": 23,
+      "speaker": "Mark",
+      "start_seconds": 361.986,
+      "end_seconds": 382.752,
+      "text": "We did, and we may still do it. We tested two open-source models, and for our questions they were about ten percent less accurate than the hosted model. For now, the enterprise agreement gives us enough protection, but we built the system so we can switch models without rewriting everything."
+    },
+    {
+      "index": 24,
+      "speaker": "Lisa",
+      "start_seconds": 383.752,
+      "end_seconds": 394.361,
+      "text": "Now, the deadline. The board meeting is on November twelfth, and the board expects a recommendation on whether we expand the assistant to customers directly next year."
+    },
+    {
+      "index": 25,
+      "speaker": "Mark",
+      "start_seconds": 395.361,
+      "end_seconds": 419.263,
+      "text": "My view is that we're not ready to put it in front of all customers, but we are ready for a controlled step. My proposal is that we expose it to ten percent of website chat visitors, only for questions about claim status and payments, which are lower risk than coverage questions. Anything about coverage gets handed to a human."
+    },
+    {
+      "index": 26,
+      "speaker": "Lisa",
+      "start_seconds": 420.263,
+      "end_seconds": 431.522,
+      "text": "I agree with that, and I'd like to present it to the board as our joint recommendation. Where I want to push you is on measuring quality. The board will ask how we know it's working."
+    },
+    {
+      "index": 27,
+      "speaker": "Mark",
+      "start_seconds": 432.522,
+      "end_seconds": 454.089,
+      "text": "We measure three things. Accuracy, based on weekly reviews of a random sample of answers by senior agents. The escalation rate, meaning how often a conversation gets handed to a human. And customer satisfaction scores, compared with conversations handled only by people."
+    },
+    {
+      "index": 28,
+      "speaker": "Lisa",
+      "start_seconds": 455.089,
+      "end_seconds": 457.189,
+      "text": "Do we have a target for accuracy?"
+    },
+    {
+      "index": 29,
+      "speaker": "Mark",
+      "start_seconds": 458.189,
+      "end_seconds": 469.403,
+      "text": "Ninety five percent of reviewed answers rated correct and complete. We're at ninety one percent today, so there's still work to do before the board meeting."
+    },
+    {
+      "index": 30,
+      "speaker": "Lisa",
+      "start_seconds": 470.403,
+      "end_seconds": 475.399,
+      "text": "What about the support team? People are worried that AI will replace their jobs."
+    },
+    {
+      "index": 31,
+      "speaker": "Mark",
+      "start_seconds": 476.399,
+      "end_seconds": 479.933,
+      "text": "That's the question I get most often in the office."
+    },
+    {
+      "index": 32,
+      "speaker": "Lisa",
+      "start_seconds": 480.933,
+      "end_seconds": 504.29,
+      "text": "And my honest answer is that we're not planning layoffs. Our volume grows every year, and we've been unable to hire fast enough. What we expect is that agents spend less time searching documents and more time on complicated claims, where a person really makes a difference. Several agents have also joined the review team that evaluates the assistant's answers."
+    },
+    {
+      "index": 33,
+      "speaker": "Mark",
+      "start_seconds": 505.29,
+      "end_seconds": 513.497,
+      "text": "Some of the best improvements came from those agents. They know exactly which questions confuse customers."
+    },
+    {
+      "index": 34,
+      "speaker": "Lisa",
+      "start_seconds": 514.497,
+      "end_seconds": 531.49,
+      "text": "So, to summarize for the board meeting we discussed earlier, on November twelfth. The agent assistant stays and expands to all support teams, and we start a limited customer pilot for claim status and payment questions, at ten percent of chat traffic."
+    },
+    {
+      "index": 35,
+      "speaker": "Mark",
+      "start_seconds": 532.49,
+      "end_seconds": 538.456,
+      "text": "With a human handoff for anything about coverage, and weekly quality reviews."
+    },
+    {
+      "index": 36,
+      "speaker": "Lisa",
+      "start_seconds": 539.456,
+      "end_seconds": 542.664,
+      "text": "Mark, thanks for keeping me honest on this project."
+    },
+    {
+      "index": 37,
+      "speaker": "Mark",
+      "start_seconds": 543.664,
+      "end_seconds": 550.991,
+      "text": "Thanks, Lisa. It's been a good partnership, even when you wanted to move faster than I did."
+    }
+  ]
+}

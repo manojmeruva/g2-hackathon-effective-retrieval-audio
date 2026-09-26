@@ -1,0 +1,278 @@
+{
+  "conversation_id": "conversation_01",
+  "title": "Founder Notes: Raising a Series A",
+  "topic": "startup funding",
+  "audio_file": "data/audio/conversation_01.wav",
+  "speakers": [
+    "Alice",
+    "Bob"
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "Bob",
+      "start_seconds": 0.0,
+      "end_seconds": 17.182,
+      "text": "Welcome back to Founder Notes. I'm Bob, and today I'm talking with Alice, the co-founder and CEO of Routewise, a startup that builds route planning software for regional delivery companies. Alice, thanks for coming on."
+    },
+    {
+      "index": 1,
+      "speaker": "Alice",
+      "start_seconds": 18.182,
+      "end_seconds": 25.208,
+      "text": "Thanks for having me, Bob. I've listened to the show for years, so it's a little strange to be on this side of the microphone."
+    },
+    {
+      "index": 2,
+      "speaker": "Bob",
+      "start_seconds": 26.208,
+      "end_seconds": 36.974,
+      "text": "Let's start with where the company is today. You raised a seed round about eighteen months ago. How much did you raise, and what has happened since?"
+    },
+    {
+      "index": 3,
+      "speaker": "Alice",
+      "start_seconds": 37.974,
+      "end_seconds": 55.937,
+      "text": "We raised a two million dollar seed round, led by a small fund in Denver, with a few angel investors from the logistics industry. Since then we've grown from four customers to thirty one, and our annual recurring revenue just crossed one point two million dollars. The team is now fourteen people, mostly engineers."
+    },
+    {
+      "index": 4,
+      "speaker": "Bob",
+      "start_seconds": 56.937,
+      "end_seconds": 66.152,
+      "text": "That's strong growth. But I know from our earlier conversations that runway has been on your mind. Where do you stand?"
+    },
+    {
+      "index": 5,
+      "speaker": "Alice",
+      "start_seconds": 67.152,
+      "end_seconds": 82.96,
+      "text": "Right now we have about nine months of runway at our current burn rate. Our monthly burn is roughly one hundred and forty thousand dollars. Nine months sounds like a lot, but a Series A process can easily take four to six months, so realistically we need to start fundraising this quarter."
+    },
+    {
+      "index": 6,
+      "speaker": "Bob",
+      "start_seconds": 83.96,
+      "end_seconds": 88.967,
+      "text": "So what is the plan? How big is the Series A you are targeting?"
+    },
+    {
+      "index": 7,
+      "speaker": "Alice",
+      "start_seconds": 89.967,
+      "end_seconds": 104.656,
+      "text": "We're aiming for eight million dollars. Our lead candidates have talked about a pre-money valuation somewhere around forty million, but nothing is signed. We don't have a term sheet yet, and I've learned not to count on a number until the term sheet is actually in my inbox."
+    },
+    {
+      "index": 8,
+      "speaker": "Bob",
+      "start_seconds": 105.656,
+      "end_seconds": 133.942,
+      "text": "Here is where I want to push a little. My proposal, and I said this to you privately last month, is that you should raise a bridge round from your existing investors before you go out for the Series A. A small bridge, maybe seven hundred and fifty thousand dollars on a SAFE note, would give you another five or six months of breathing room. You would negotiate from a position of strength instead of desperation."
+    },
+    {
+      "index": 9,
+      "speaker": "Alice",
+      "start_seconds": 134.942,
+      "end_seconds": 152.12,
+      "text": "And I still disagree with that, Bob. A bridge round sends a signal. When new investors look at the cap table and see a bridge right before the Series A, the first question they ask is why the company needed extra money. It can look like we missed our plan. I'd rather extend runway by cutting our own costs."
+    },
+    {
+      "index": 10,
+      "speaker": "Bob",
+      "start_seconds": 153.12,
+      "end_seconds": 163.352,
+      "text": "Cutting costs where, though? You just told me most of the team is engineers. You don't want to slow down the product right before a raise."
+    },
+    {
+      "index": 11,
+      "speaker": "Alice",
+      "start_seconds": 164.352,
+      "end_seconds": 185.129,
+      "text": "No, and I'm not planning to cut people. The biggest line item after payroll is our hosting bill. When we started, we put everything on Amazon Web Services with no real planning. We had oversized servers running all night, test environments nobody had touched in months, and a PostgreSQL database that was provisioned for ten times our actual traffic."
+    },
+    {
+      "index": 12,
+      "speaker": "Bob",
+      "start_seconds": 186.129,
+      "end_seconds": 188.352,
+      "text": "So what did you do about it?"
+    },
+    {
+      "index": 13,
+      "speaker": "Alice",
+      "start_seconds": 189.352,
+      "end_seconds": 213.242,
+      "text": "Our lead engineer spent two weeks on it. We shut down the idle test environments, moved the batch jobs to cheaper spot instances, and resized the database. We also signed a one year savings plan with Amazon. Altogether our hosting bill dropped from about thirty two thousand dollars a month to around twenty one thousand. That's roughly a thirty five percent reduction, and it added almost a full month of runway on its own."
+    },
+    {
+      "index": 14,
+      "speaker": "Bob",
+      "start_seconds": 214.242,
+      "end_seconds": 220.529,
+      "text": "That's a real number. I'll admit that is more than I expected from cleaning up servers."
+    },
+    {
+      "index": 15,
+      "speaker": "Alice",
+      "start_seconds": 221.529,
+      "end_seconds": 231.069,
+      "text": "It surprised us too. The lesson for other founders is that cloud spending grows quietly. Nobody decides to waste money. It just accumulates when you are moving fast."
+    },
+    {
+      "index": 16,
+      "speaker": "Bob",
+      "start_seconds": 232.069,
+      "end_seconds": 240.659,
+      "text": "Okay, but even with those savings, you still have a deadline. When do you actually need to close the Series A?"
+    },
+    {
+      "index": 17,
+      "speaker": "Alice",
+      "start_seconds": 241.659,
+      "end_seconds": 253.73,
+      "text": "Our internal deadline is the end of June. If we don't have a signed term sheet by June thirtieth, we will have to make harder decisions, including slowing down hiring. So everything in the plan works backward from that date."
+    },
+    {
+      "index": 18,
+      "speaker": "Bob",
+      "start_seconds": 254.73,
+      "end_seconds": 262.793,
+      "text": "Let's talk about metrics then. What do Series A investors want to see from a company like yours right now?"
+    },
+    {
+      "index": 19,
+      "speaker": "Alice",
+      "start_seconds": 263.793,
+      "end_seconds": 287.663,
+      "text": "The bar has gone up a lot. A few years ago, a million in annual recurring revenue with decent growth was enough. Now investors want to see efficient growth. They ask about net revenue retention, about the payback period on customer acquisition, and about gross margin. For us, net revenue retention is around one hundred and thirty percent, because customers who start with one depot usually expand to several."
+    },
+    {
+      "index": 20,
+      "speaker": "Bob",
+      "start_seconds": 288.663,
+      "end_seconds": 297.494,
+      "text": "That expansion story is strong. What about gross margin? Software investors tend to be strict about that."
+    },
+    {
+      "index": 21,
+      "speaker": "Alice",
+      "start_seconds": 298.494,
+      "end_seconds": 311.67,
+      "text": "That is actually another reason the hosting work mattered. Lower hosting costs go straight into gross margin. We went from about seventy one percent to seventy nine percent, which puts us in the range investors expect for a software business."
+    },
+    {
+      "index": 22,
+      "speaker": "Bob",
+      "start_seconds": 312.67,
+      "end_seconds": 320.316,
+      "text": "Investors will also ask about competition. Who else is selling route planning to regional carriers?"
+    },
+    {
+      "index": 23,
+      "speaker": "Alice",
+      "start_seconds": 321.316,
+      "end_seconds": 337.29,
+      "text": "There are two large incumbents, but their products were built for national carriers with huge fleets. Regional companies with twenty to two hundred trucks find them too expensive and too complicated. Our onboarding takes about two weeks instead of six months, and that is usually what wins the deal."
+    },
+    {
+      "index": 24,
+      "speaker": "Bob",
+      "start_seconds": 338.29,
+      "end_seconds": 341.504,
+      "text": "And how many customers have you lost?"
+    },
+    {
+      "index": 25,
+      "speaker": "Alice",
+      "start_seconds": 342.504,
+      "end_seconds": 349.275,
+      "text": "One customer in eighteen months, and only because they were acquired by a larger carrier that already had its own system."
+    },
+    {
+      "index": 26,
+      "speaker": "Bob",
+      "start_seconds": 350.275,
+      "end_seconds": 365.153,
+      "text": "Let me go back to dilution for a moment. If you raise eight million at a forty million pre-money valuation, you're giving up about sixteen or seventeen percent of the company. Are you comfortable with that?"
+    },
+    {
+      "index": 27,
+      "speaker": "Alice",
+      "start_seconds": 366.153,
+      "end_seconds": 380.929,
+      "text": "I am. The founders together still own a bit over sixty percent after the seed round, so even after the Series A we keep a clear majority. What I care about more is who joins the board. A good board member is worth much more than a slightly higher valuation."
+    },
+    {
+      "index": 28,
+      "speaker": "Bob",
+      "start_seconds": 381.929,
+      "end_seconds": 389.096,
+      "text": "That's a mature view. A lot of founders optimize for the headline valuation and regret it later."
+    },
+    {
+      "index": 29,
+      "speaker": "Alice",
+      "start_seconds": 390.096,
+      "end_seconds": 399.833,
+      "text": "I have friends who raised at a valuation they could not grow into. The next round was a down round, and it crushed morale. I would rather raise at a fair price and beat expectations."
+    },
+    {
+      "index": 30,
+      "speaker": "Bob",
+      "start_seconds": 400.833,
+      "end_seconds": 408.624,
+      "text": "So, looking at the deadline we talked about earlier, the end of June, what does the next month look like for you?"
+    },
+    {
+      "index": 31,
+      "speaker": "Alice",
+      "start_seconds": 409.624,
+      "end_seconds": 429.617,
+      "text": "The next four weeks are preparation. We're finishing the data room, cleaning up the financial model, and getting three customer references ready to take calls. Then in the first week of April I start meetings. I have a list of twenty two firms, and I plan to talk to all of them in a compressed three week window, so that any interest arrives around the same time."
+    },
+    {
+      "index": 32,
+      "speaker": "Bob",
+      "start_seconds": 430.617,
+      "end_seconds": 443.504,
+      "text": "Compressing the process is smart. It creates healthy competition. And if the Series A does not come together by then, would you reconsider the bridge round I suggested?"
+    },
+    {
+      "index": 33,
+      "speaker": "Alice",
+      "start_seconds": 444.504,
+      "end_seconds": 455.833,
+      "text": "If we reach May with no serious interest, then yes, I would call our existing investors. But I want that to be the backup plan, not the starting point. You and I can keep disagreeing about that."
+    },
+    {
+      "index": 34,
+      "speaker": "Bob",
+      "start_seconds": 456.833,
+      "end_seconds": 464.623,
+      "text": "Fair enough. Last question. What is one thing you wish you had known before raising your seed round?"
+    },
+    {
+      "index": 35,
+      "speaker": "Alice",
+      "start_seconds": 465.623,
+      "end_seconds": 480.75,
+      "text": "That fundraising is a sales process. You need a pipeline, you need follow up, and you need to qualify your leads, just like selling software. The first time, I treated it like a series of polite conversations, and it took twice as long as it should have."
+    },
+    {
+      "index": 36,
+      "speaker": "Bob",
+      "start_seconds": 481.75,
+      "end_seconds": 489.747,
+      "text": "Great advice. Alice, thank you for being so open about the numbers. Good luck with the Series A."
+    },
+    {
+      "index": 37,
+      "speaker": "Alice",
+      "start_seconds": 490.747,
+      "end_seconds": 494.21,
+      "text": "Thanks, Bob. I'll let you know how it goes after June."
+    }
+  ]
+}

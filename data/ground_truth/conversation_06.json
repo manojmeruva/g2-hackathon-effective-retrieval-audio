@@ -1,0 +1,278 @@
+{
+  "conversation_id": "conversation_06",
+  "title": "Roadmap Radio: What to Build Next",
+  "topic": "product strategy",
+  "audio_file": "data/audio/conversation_06.wav",
+  "speakers": [
+    "Nina",
+    "Alex"
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "Alex",
+      "start_seconds": 0.0,
+      "end_seconds": 20.152,
+      "text": "Hi, and welcome to Roadmap Radio. I'm Alex, co-founder and CEO of Tandem, a shared workspace tool for small design agencies. My co-host today is Nina, our head of product. We're going to talk through a decision we've been debating for a month, which is what to build next. Nina, welcome."
+    },
+    {
+      "index": 1,
+      "speaker": "Nina",
+      "start_seconds": 21.152,
+      "end_seconds": 28.047,
+      "text": "Thanks, Alex. I think our listeners are about to hear a very real product argument."
+    },
+    {
+      "index": 2,
+      "speaker": "Alex",
+      "start_seconds": 29.047,
+      "end_seconds": 41.652,
+      "text": "Let's start with some context. Tandem has about nine thousand teams using the free plan, and around six hundred paying teams. Revenue has grown every month this year, but the growth is slowing."
+    },
+    {
+      "index": 3,
+      "speaker": "Nina",
+      "start_seconds": 42.652,
+      "end_seconds": 46.651,
+      "text": "And the reason it's slowing is the part we disagree about."
+    },
+    {
+      "index": 4,
+      "speaker": "Alex",
+      "start_seconds": 47.651,
+      "end_seconds": 77.566,
+      "text": "Right. My view is that we've been leaving money on the table. Over the last quarter, we've had fourteen inbound requests from larger companies, some with more than five hundred employees. They like the product, but they need single sign-on, admin controls, audit logs, and usually a security review. So my proposal is to build an enterprise tier this quarter. A single enterprise contract could be worth as much as fifty of our small team plans."
+    },
+    {
+      "index": 5,
+      "speaker": "Nina",
+      "start_seconds": 78.566,
+      "end_seconds": 103.429,
+      "text": "And I disagree, at least with the timing. When I look at our numbers, the bigger problem isn't that we're missing large customers. It's that we're losing the customers we already have. Our monthly churn on paid plans is about six percent. That means we lose roughly half of our paying teams every year, and we have to replace them just to stand still."
+    },
+    {
+      "index": 6,
+      "speaker": "Alex",
+      "start_seconds": 104.429,
+      "end_seconds": 113.155,
+      "text": "Six percent is high, I'll admit that. But enterprise customers churn much less, so the enterprise tier helps with that as well."
+    },
+    {
+      "index": 7,
+      "speaker": "Nina",
+      "start_seconds": 114.155,
+      "end_seconds": 142.362,
+      "text": "Eventually, maybe. But enterprise deals take six to nine months to close, and they come with security questionnaires, procurement, and custom contract terms. We don't have a single salesperson. Meanwhile, every month we lose teams who signed up, invited two colleagues, never figured out how to set up their first project, and quietly stopped paying."
+    },
+    {
+      "index": 8,
+      "speaker": "Alex",
+      "start_seconds": 143.362,
+      "end_seconds": 145.076,
+      "text": "So what's your alternative?"
+    },
+    {
+      "index": 9,
+      "speaker": "Nina",
+      "start_seconds": 146.076,
+      "end_seconds": 174.682,
+      "text": "Fix activation first. Our data shows that teams who create a shared project and invite at least three members in their first week have a churn rate under two percent. Teams that don't reach that point churn at more than twelve percent. Only about thirty five percent of new teams reach it. If we can get that number to fifty percent, churn drops dramatically without a single enterprise feature."
+    },
+    {
+      "index": 10,
+      "speaker": "Alex",
+      "start_seconds": 175.682,
+      "end_seconds": 180.579,
+      "text": "That's a compelling number. How would you get from thirty five percent to fifty?"
+    },
+    {
+      "index": 11,
+      "speaker": "Nina",
+      "start_seconds": 181.579,
+      "end_seconds": 215.914,
+      "text": "Self-serve onboarding. Right now, a new user lands in an empty workspace with no guidance. I want to add project templates for the common agency workflows, like a client brief, a design review, and a launch checklist. And a guided setup that asks what kind of agency you are and creates a sample project with example content. Then we nudge people to invite teammates at the moment it's actually useful, like when they share their first design for feedback."
+    },
+    {
+      "index": 12,
+      "speaker": "Alex",
+      "start_seconds": 216.914,
+      "end_seconds": 230.018,
+      "text": "Let me push back on one thing. We ran a customer survey in January, and the most requested feature was not onboarding. It was integrations, especially with the file storage tools agencies already use."
+    },
+    {
+      "index": 13,
+      "speaker": "Nina",
+      "start_seconds": 231.018,
+      "end_seconds": 253.417,
+      "text": "That's true, and it's a good example of why surveys can mislead. The existing customers who answer surveys are the ones who already got through onboarding. The people who left never answered the survey. When I interviewed twelve teams who canceled, nine of them described some version of, we never really got started."
+    },
+    {
+      "index": 14,
+      "speaker": "Alex",
+      "start_seconds": 254.417,
+      "end_seconds": 257.211,
+      "text": "So what happens to the integrations request?"
+    },
+    {
+      "index": 15,
+      "speaker": "Nina",
+      "start_seconds": 258.211,
+      "end_seconds": 274.705,
+      "text": "It stays on the roadmap, but later. The file storage integration is a big project, because each storage provider has its own permissions model. I'd rather do one integration really well in the summer than three badly now."
+    },
+    {
+      "index": 16,
+      "speaker": "Alex",
+      "start_seconds": 275.705,
+      "end_seconds": 280.722,
+      "text": "Okay, that's a strong signal. What about pricing? That's another lever."
+    },
+    {
+      "index": 17,
+      "speaker": "Nina",
+      "start_seconds": 281.722,
+      "end_seconds": 305.241,
+      "text": "I think pricing is part of it. Our free plan is too generous. Teams can use almost every feature forever, with up to five members. Many agencies are exactly five people, so they never need to upgrade. I'd propose lowering the free limit to three members, and moving version history to the paid plan."
+    },
+    {
+      "index": 18,
+      "speaker": "Alex",
+      "start_seconds": 306.241,
+      "end_seconds": 308.595,
+      "text": "That's going to make some people angry."
+    },
+    {
+      "index": 19,
+      "speaker": "Nina",
+      "start_seconds": 309.595,
+      "end_seconds": 318.393,
+      "text": "It will, which is why we'd keep existing free teams on the current limits for a year. Only new teams get the new plan."
+    },
+    {
+      "index": 20,
+      "speaker": "Alex",
+      "start_seconds": 319.393,
+      "end_seconds": 324.394,
+      "text": "What about raising prices on the paid plan? We haven't changed them in two years."
+    },
+    {
+      "index": 21,
+      "speaker": "Nina",
+      "start_seconds": 325.394,
+      "end_seconds": 341.793,
+      "text": "I'd wait. Raising prices while churn is high means more teams leave at renewal. Once the new onboarding improves retention, we'll have much better data about how much value teams get, and we can revisit pricing in the fall."
+    },
+    {
+      "index": 22,
+      "speaker": "Alex",
+      "start_seconds": 342.793,
+      "end_seconds": 349.779,
+      "text": "Some investors told me they worry we don't have product-market fit, because of the churn. How do you answer that?"
+    },
+    {
+      "index": 23,
+      "speaker": "Nina",
+      "start_seconds": 350.779,
+      "end_seconds": 369.033,
+      "text": "I think we have strong product-market fit with the teams who get started properly. Their retention looks like a great business. What we don't have yet is a product that gets every new team to that point. That's an onboarding problem, not a market problem."
+    },
+    {
+      "index": 24,
+      "speaker": "Alex",
+      "start_seconds": 370.033,
+      "end_seconds": 384.871,
+      "text": "Let's talk about the deadline, because it's driving all of this. We have a slot at the Build Summit conference on May twentieth. It's the biggest event of the year for our audience, and we've promised to launch something significant on stage."
+    },
+    {
+      "index": 25,
+      "speaker": "Nina",
+      "start_seconds": 385.871,
+      "end_seconds": 403.597,
+      "text": "Which is why I want the onboarding work to be the launch. It's visible, it's easy to demo, and it affects every new customer who hears about us at the conference. An enterprise tier is hard to demo, because single sign-on isn't exciting to watch."
+    },
+    {
+      "index": 26,
+      "speaker": "Alex",
+      "start_seconds": 404.597,
+      "end_seconds": 407.943,
+      "text": "I'll give you that. Nobody claps for an audit log."
+    },
+    {
+      "index": 27,
+      "speaker": "Nina",
+      "start_seconds": 408.943,
+      "end_seconds": 434.316,
+      "text": "But I don't want to ignore the enterprise demand either. My compromise is this. We don't build the full enterprise tier this quarter, but we do build single sign-on, because it's the one requirement that every one of those fourteen companies mentioned. And we start a waitlist for an enterprise plan, so we learn how much demand really exists."
+    },
+    {
+      "index": 28,
+      "speaker": "Alex",
+      "start_seconds": 435.316,
+      "end_seconds": 441.041,
+      "text": "And the rest of the enterprise features, like audit logs and advanced admin controls?"
+    },
+    {
+      "index": 29,
+      "speaker": "Nina",
+      "start_seconds": 442.041,
+      "end_seconds": 454.984,
+      "text": "Next quarter, after the conference, if the waitlist shows real demand. I'd want at least ten companies willing to talk about pricing before we commit engineering time."
+    },
+    {
+      "index": 30,
+      "speaker": "Alex",
+      "start_seconds": 455.984,
+      "end_seconds": 468.559,
+      "text": "I can support that. So let me say back where we landed. I proposed building a full enterprise tier this quarter. Nina disagreed, and argued that churn and activation are the bigger problems."
+    },
+    {
+      "index": 31,
+      "speaker": "Nina",
+      "start_seconds": 469.559,
+      "end_seconds": 480.933,
+      "text": "And we agreed that the conference launch will be the new onboarding experience, with templates and guided setup, plus single sign-on as the one enterprise feature."
+    },
+    {
+      "index": 32,
+      "speaker": "Alex",
+      "start_seconds": 481.933,
+      "end_seconds": 488.691,
+      "text": "We'll also change the free plan for new teams to three members, and we'll start an enterprise waitlist."
+    },
+    {
+      "index": 33,
+      "speaker": "Nina",
+      "start_seconds": 489.691,
+      "end_seconds": 500.825,
+      "text": "And we'll measure success by the share of new teams who reach the activation point in their first week. Our target is fifty percent within two months of the launch."
+    },
+    {
+      "index": 34,
+      "speaker": "Alex",
+      "start_seconds": 501.825,
+      "end_seconds": 506.708,
+      "text": "How confident are you that we'll hit the date we discussed earlier, May twentieth?"
+    },
+    {
+      "index": 35,
+      "speaker": "Nina",
+      "start_seconds": 507.708,
+      "end_seconds": 524.202,
+      "text": "Fairly confident for the onboarding flow and the templates, because the design is already finished. Single sign-on is the risk. If it slips, we'll announce it on stage and ship it two weeks later, rather than delay the whole launch."
+    },
+    {
+      "index": 36,
+      "speaker": "Alex",
+      "start_seconds": 525.202,
+      "end_seconds": 532.34,
+      "text": "That sounds right. Nina, thanks for pushing back. I think this is a better plan than the one I walked in with."
+    },
+    {
+      "index": 37,
+      "speaker": "Nina",
+      "start_seconds": 533.34,
+      "end_seconds": 543.482,
+      "text": "Thanks, Alex. And thanks to everyone listening. If you're an agency using Tandem, we'd love to hear how your first week went."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+faster-whisper
+pyannote.audio
+sentence-transformers
+sqlalchemy>=2.0
+psycopg[binary]
+pgvector
+pydantic>=2.0
+typer
+
+[dev]
+pytest
+ruff
+mypy
