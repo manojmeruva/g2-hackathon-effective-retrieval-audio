@@ -6,15 +6,22 @@ Search spoken conversations by **keyword** or by **meaning**, and jump straight 
 $ python -m app.cli search "What did they say about reducing infrastructure costs?"
 
 1. conversation_03  06:26–06:42  SPEAKER_01  [conversation_03:26]
-   keyword 0.00 · semantic 1.00 · hybrid 0.03 · rerank -0.66
+   keyword 0.00 · semantic 1.00 · hybrid 0.80
    · 06:23 SPEAKER_00: Where did we end up?
    ▶ 06:26 SPEAKER_01: Today our monthly infrastructure spend is about 18 % lower than the
      data center was and that's before counting the hardware refresh we no longer have to buy. ...
    · 06:43 SPEAKER_00: I think that's the most important lesson. The cloud doesn't make
      things cheaper by itself. ...
+
+2. conversation_03  05:54–06:22  SPEAKER_01  [conversation_03:24]
+   keyword 0.00 · semantic 0.82 · hybrid 0.66
+   · 05:51 SPEAKER_00: And then what changed?
+   ▶ 05:54 SPEAKER_01: We did a focused cost optimization project. We right -sized the
+     instances based on actual usage, bought reserved instances for the baseline capacity ...
+   · 06:23 SPEAKER_00: Where did we end up?
 ```
 
-Output from a real run (line breaks added). Each result shows the file, time range, speaker, scores, and the lines spoken just before and after it (`▶` marks the match). Add `--html results.html` to get a page with a **▶ Jump to 06:26** audio player for each result.
+Output from a real run (top 2 of 3 shown, long lines shortened). Each result shows the file, time range, speaker, scores, and the lines spoken just before and after it (`▶` marks the match). Add `--html results.html` to get a page with a **▶ Jump to 06:26** audio player for each result.
 
 Everything runs locally: transcription, speaker detection, embeddings and search. No hosted AI APIs are used.
 
@@ -32,7 +39,7 @@ audio file
 speaker-labelled words ──► chunks of up to 40 s (one speaker each, 5 s overlap)
                                 │
                                 ▼
-               BAAI/bge-small-en-v1.5 embeddings (384-dim, local)
+               BAAI/bge-base-en-v1.5 embeddings (768-dim, local)
                                 │
                                 ▼
               PostgreSQL: full-text index  +  pgvector HNSW index
@@ -42,16 +49,16 @@ At search time:
 
 ```
 query ─┬─ keyword search (PostgreSQL full-text) ─────────── top 50 ─┐
-       └─ semantic search (bge-small query → pgvector HNSW) ─ top 50 ─┤
+       └─ semantic search (bge-base query → pgvector HNSW) ── top 50 ─┤
                                                                      ▼
-                     fusion: reciprocal rank fusion (default) or weighted α
+          fusion: weighted α = 0.2 (default) or reciprocal rank fusion
                                                                      ▼
-        cross-encoder reranking of the top 30 (ms-marco-MiniLM-L-6-v2)
+   optional: cross-encoder reranking of the top 30 (ms-marco-MiniLM-L-6-v2)
                                                                      ▼
              file · start–end time · speaker · text · all scores · context
 ```
 
-Every result includes the file, the timestamps, the speaker, the text, the keyword, semantic, hybrid and rerank scores, and the lines spoken just before and after it.
+Every result includes the file, the timestamps, the speaker, the text, the keyword, semantic and hybrid scores (plus the rerank score when reranking is on), and the lines spoken just before and after it.
 
 ---
 
@@ -63,10 +70,10 @@ All models run locally on CPU. They are downloaded once from Hugging Face and th
 |---|---|---|
 | Transcription | `faster-whisper` **small.en** | int8, beam size 5, voice-activity filter, word timestamps |
 | Speaker diarization | **pyannote/speaker-diarization-community-1** | exactly 2 speakers, non-overlapping turns (needs `HF_TOKEN`) |
-| Embeddings | **BAAI/bge-small-en-v1.5** (sentence-transformers) | 384 dimensions, L2-normalized, cosine similarity |
-| Reranking | **cross-encoder/ms-marco-MiniLM-L-6-v2** (sentence-transformers) | scores the top 30 hybrid candidates |
+| Embeddings | **BAAI/bge-base-en-v1.5** (sentence-transformers) | 768 dimensions, L2-normalized, cosine similarity |
+| Reranking (optional) | **cross-encoder/ms-marco-MiniLM-L-6-v2** (sentence-transformers) | scores the top 30 hybrid candidates |
 
-Models can be swapped in [`src/app/config.py`](src/app/config.py).
+`bge-base` was chosen after comparing `bge-small`, `bge-base` and `bge-large` on the golden queries (see [EVALUATION.md](EVALUATION.md#embedding-model-comparison)). Models can be swapped in [`src/app/config.py`](src/app/config.py); after changing the embedding model, rebuild the index with `init-db --reset` and `ingest`.
 
 ### How the cross-encoder reranker works
 
@@ -82,7 +89,7 @@ Models can be swapped in [`src/app/config.py`](src/app/config.py).
   - It can only reorder the 30 candidates; it cannot find a segment hybrid search missed.
   - It sees only text, not who is speaking.
   - It adds about 100 ms per search on CPU.
-- **Measured effect:** better ordering (Recall@3 +0.05, NDCG@10 +0.07) with no gain in Recall@5. See [EVALUATION.md](EVALUATION.md).
+- **Measured effect:** it puts the best answer first more often (Recall@1 0.387 → 0.477, MRR 0.784 → 0.824). But it lowers Recall@5 (0.781 → 0.734) because it pushes down synonym and paraphrase matches, such as "chatbot making things up" → "hallucinations". It is therefore **off by default** and available with `--mode hybrid_rerank`. See [EVALUATION.md](EVALUATION.md).
 
 ---
 
@@ -127,10 +134,10 @@ python -m app.cli search "QUERY" [OPTIONS]
 |---|---|
 | `--mode keyword` | Exact words only (PostgreSQL full-text search) |
 | `--mode semantic` | Meaning only (vector similarity) |
-| `--mode hybrid` | Both, fused into one ranking |
-| `--mode hybrid_rerank` | Hybrid, then re-sorted by a cross-encoder (default) |
-| `--fusion rrf` / `weighted` | How hybrid modes combine the two lists (default `rrf`) |
-| `--alpha 0.4` | Keyword weight for weighted fusion (0 = meaning only, 1 = keywords only; default 0.4) |
+| `--mode hybrid` | Both, fused into one ranking (default) |
+| `--mode hybrid_rerank` | Hybrid, then re-sorted by a cross-encoder |
+| `--fusion weighted` / `rrf` | How hybrid modes combine the two lists (default `weighted`) |
+| `--alpha 0.2` | Keyword weight for weighted fusion (0 = meaning only, 1 = keywords only; default 0.2) |
 | `--top-k 5` | Number of results |
 | `--html results.html` | Also write a page with an audio player and a **▶ Jump to 05:42** button per result |
 
@@ -194,7 +201,7 @@ Method, results and findings are in **[EVALUATION.md](EVALUATION.md)**.
 - **PostgreSQL is the single store.** Segments, embeddings, the full-text index and the vector index all live in one database. There is no separate search engine to keep in sync.
 - **HNSW vector index.** Search uses pgvector's approximate nearest-neighbour index instead of comparing the query against every row.
 - **Score normalization before fusion.** Keyword and semantic scores are on different scales, so each list is rescaled to 0–1 before the α-weighted sum. RRF avoids the scale problem by using only ranks, and the evaluation decides which works better.
-- **Reranking only a shortlist.** The cross-encoder (`ms-marco-MiniLM-L-6-v2`) is more accurate than comparing embeddings, but too slow to run over everything. It re-sorts only the top 30 hybrid results. See [How the cross-encoder reranker works](#how-the-cross-encoder-reranker-works).
+- **Reranking is optional.** The cross-encoder (`ms-marco-MiniLM-L-6-v2`) is too slow to run over everything, so it re-sorts only the top 30 hybrid results. It improved the top-1 result but lowered Recall@5, so it is off by default. See [How the cross-encoder reranker works](#how-the-cross-encoder-reranker-works).
 - **Context expansion.** Each result includes the segment before and after it, so you see the question as well as the answer.
 
 ## Metrics for production
@@ -244,7 +251,7 @@ tests/
 ## Limitations
 
 - The audio is synthetic text-to-speech, which is cleaner than real recordings.
-- α and the fusion method are chosen on the same 48 queries they are reported on. A larger held-out query set would give a less optimistic estimate.
+- α, the fusion method and the embedding model are chosen on the same 48 queries they are reported on. A larger held-out query set would give a less optimistic estimate.
 - Speakers are labelled `SPEAKER_00` / `SPEAKER_01`, not by name. Diarization tells voices apart but cannot say who they are, so "What did Sarah propose?" only matches segments where the name is spoken aloud.
 - Whisper writes numbers as digits ("18 %", "$750,000"). A keyword query that spells a number out ("eighteen percent") will not match it exactly.
 - 48 queries is a small evaluation set. A difference of less than 0.02 in Recall@5 is about one query.

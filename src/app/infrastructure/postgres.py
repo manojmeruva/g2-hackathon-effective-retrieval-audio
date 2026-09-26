@@ -15,3 +15,8 @@ def create_schema(engine: Engine, schema: Schema) -> None:
     with engine.begin() as connection:
         connection.execute(text("CREATE EXTENSION IF NOT EXISTS vector"))
     schema.metadata.create_all(engine)
+
+
+def drop_tables(engine: Engine, schema: Schema) -> None:
+    """Drop the application tables; the vector column size is fixed at creation."""
+    schema.metadata.drop_all(engine)

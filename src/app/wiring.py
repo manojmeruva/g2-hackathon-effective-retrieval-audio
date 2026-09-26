@@ -5,7 +5,7 @@ from pathlib import Path
 from app.application.ingestion_service import IngestionService
 from app.application.search_service import SearchService
 from app.config import AppSettings
-from app.infrastructure.postgres import create_engine_from_settings, create_schema
+from app.infrastructure.postgres import create_engine_from_settings, create_schema, drop_tables
 from app.infrastructure.repositories import PostgresSegmentRepository
 from app.infrastructure.schema import define_schema
 from app.ingestion.diarization import PyannoteDiarizer
@@ -26,6 +26,11 @@ def build_repository(
     if create_tables:
         create_schema(engine, schema)
     return PostgresSegmentRepository(engine, schema)
+
+
+def drop_schema(settings: AppSettings) -> None:
+    engine = create_engine_from_settings(settings.database)
+    drop_tables(engine, define_schema(settings.embedding.dimensions))
 
 
 def build_speech_analyzer(settings: AppSettings) -> SpeechAnalyzer:

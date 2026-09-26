@@ -45,8 +45,9 @@ class ChunkingSettings(FrozenSettings):
 
 
 class EmbeddingSettings(FrozenSettings):
-    model_name: str = "BAAI/bge-small-en-v1.5"
-    dimensions: int = Field(default=384, gt=0)
+    # Chosen over bge-small and bge-large by measured Recall@5 (see EVALUATION.md).
+    model_name: str = "BAAI/bge-base-en-v1.5"
+    dimensions: int = Field(default=768, gt=0)
     batch_size: int = Field(default=32, gt=0)
     query_prefix: str = "Represent this sentence for searching relevant passages: "
 
@@ -59,8 +60,8 @@ class SearchSettings(FrozenSettings):
     candidate_count: int = Field(default=50, gt=0)
     rerank_candidate_count: int = Field(default=30, gt=0)
     # Defaults chosen by `evaluate` on the golden set (see reports/evaluation.md).
-    fusion: FusionMethod = FusionMethod.RRF
-    alpha: float = Field(default=0.4, ge=0.0, le=1.0)
+    fusion: FusionMethod = FusionMethod.WEIGHTED
+    alpha: float = Field(default=0.2, ge=0.0, le=1.0)
     rrf_k: int = Field(default=60, gt=0)
     context_window: int = Field(default=1, ge=0)
 

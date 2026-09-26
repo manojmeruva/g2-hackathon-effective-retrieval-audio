@@ -97,7 +97,9 @@ def test_alpha_argument_overrides_settings() -> None:
 
 def test_rerank_mode_reranks_only_the_top_candidates() -> None:
     reranker = ReverseReranker()
-    service, _keyword, _semantic = make_service(SearchSettings(rerank_candidate_count=2), reranker)
+    service, _keyword, _semantic = make_service(
+        SearchSettings(rerank_candidate_count=2, alpha=0.5, fusion=FusionMethod.WEIGHTED), reranker
+    )
 
     ranked = service.rank("q", SearchMode.HYBRID_RERANK)
 
@@ -113,7 +115,9 @@ def test_rerank_mode_without_reranker_is_a_configuration_error() -> None:
 
 
 def test_search_cuts_to_top_k_and_adds_context() -> None:
-    service, _keyword, _semantic = make_service(SearchSettings(context_window=1))
+    service, _keyword, _semantic = make_service(
+        SearchSettings(context_window=1, alpha=0.5, fusion=FusionMethod.WEIGHTED)
+    )
 
     results = service.search("q", top_k=2, mode=SearchMode.HYBRID)
 
@@ -135,7 +139,7 @@ def test_blank_query_returns_nothing_without_searching() -> None:
 
 
 def test_rrf_fusion_ranks_by_reciprocal_rank() -> None:
-    service, _keyword, _semantic = make_service(SearchSettings(rrf_k=60))
+    service, _keyword, _semantic = make_service(SearchSettings(rrf_k=60, fusion=FusionMethod.RRF))
 
     ranked = service.rank("q", SearchMode.HYBRID)
 

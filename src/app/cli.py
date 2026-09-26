@@ -13,7 +13,12 @@ from app.ingestion.audio import find_audio_files
 from app.presentation.evaluation_report import to_json, to_markdown
 from app.presentation.formatting import format_result
 from app.presentation.html_report import render_results_page
-from app.wiring import build_ingestion_service, build_repository, build_search_service
+from app.wiring import (
+    build_ingestion_service,
+    build_repository,
+    build_search_service,
+    drop_schema,
+)
 
 DEFAULT_AUDIO_DIR = Path("data/audio")
 DEFAULT_TRANSCRIPT_DIR = Path("data/transcripts")
@@ -25,9 +30,17 @@ app = typer.Typer(help="Search spoken conversations by keyword and meaning.", no
 
 
 @app.command("init-db")
-def init_db() -> None:
+def init_db(
+    reset: Annotated[
+        bool, typer.Option(help="Drop all indexed data first, e.g. after changing the model.")
+    ] = False,
+) -> None:
     """Create the pgvector extension, tables and indexes."""
-    build_repository(load_settings(), create_tables=True)
+    settings = load_settings()
+    if reset:
+        drop_schema(settings)
+        typer.echo("Dropped existing tables.")
+    build_repository(settings, create_tables=True)
     typer.echo("Database schema is ready.")
 
 
@@ -56,9 +69,7 @@ def ingest(
 def search(
     query: Annotated[str, typer.Argument(help="What to look for.")],
     top_k: Annotated[int, typer.Option(min=1, help="Number of results.")] = 5,
-    mode: Annotated[
-        SearchMode, typer.Option(help="Retrieval strategy.")
-    ] = SearchMode.HYBRID_RERANK,
+    mode: Annotated[SearchMode, typer.Option(help="Retrieval strategy.")] = SearchMode.HYBRID,
     alpha: Annotated[
         float | None, typer.Option(min=0.0, max=1.0, help="Keyword weight for weighted fusion.")
     ] = None,
