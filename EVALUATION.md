@@ -12,7 +12,9 @@ This runs all 48 queries against every configuration:
 - semantic only
 - weighted hybrid at α = 0.2, 0.4, 0.5, 0.6 and 0.8
 - reciprocal rank fusion (RRF)
-- the best hybrid configuration, with cross-encoder reranking on top
+- the best hybrid configuration, with cross-encoder reranking on top (`cross-encoder/ms-marco-MiniLM-L-6-v2`, top 30 candidates)
+
+All configurations use the same index: `faster-whisper small.en` transcripts, `pyannote/speaker-diarization-community-1` speaker labels and `BAAI/bge-small-en-v1.5` embeddings.
 
 α isn't picked by hand. The best configuration is the one with the highest measured **Recall@5**, with MRR as the tie-break.
 

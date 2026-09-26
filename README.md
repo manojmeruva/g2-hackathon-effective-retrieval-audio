@@ -25,14 +25,14 @@ Everything runs locally: transcription, speaker detection, embeddings and search
 ```
 audio file
    │
-   ├─ faster-whisper ─────── words with timestamps
-   ├─ pyannote.audio ─────── who spoke when
+   ├─ faster-whisper (small.en) ─────────────────────── words with timestamps
+   ├─ pyannote (speaker-diarization-community-1) ────── who spoke when
    │
    ▼
 speaker-labelled words ──► chunks of up to 40 s (one speaker each, 5 s overlap)
                                 │
                                 ▼
-                  sentence-transformers embeddings (local)
+               BAAI/bge-small-en-v1.5 embeddings (384-dim, local)
                                 │
                                 ▼
               PostgreSQL: full-text index  +  pgvector HNSW index
@@ -41,17 +41,48 @@ speaker-labelled words ──► chunks of up to 40 s (one speaker each, 5 s ove
 At search time:
 
 ```
-query ─┬─ keyword search (PostgreSQL full-text) ──┐
-       └─ semantic search (pgvector)            ──┤
-                                                  ▼
-                     fusion: weighted (α) or reciprocal rank fusion
-                                                  ▼
-                        optional cross-encoder reranking (top 30)
-                                                  ▼
+query ─┬─ keyword search (PostgreSQL full-text) ─────────── top 50 ─┐
+       └─ semantic search (bge-small query → pgvector HNSW) ─ top 50 ─┤
+                                                                     ▼
+                     fusion: reciprocal rank fusion (default) or weighted α
+                                                                     ▼
+        cross-encoder reranking of the top 30 (ms-marco-MiniLM-L-6-v2)
+                                                                     ▼
              file · start–end time · speaker · text · all scores · context
 ```
 
-Every result includes the file, the timestamps, the speaker, the text, the keyword, semantic and hybrid scores, and the lines spoken just before and after it.
+Every result includes the file, the timestamps, the speaker, the text, the keyword, semantic, hybrid and rerank scores, and the lines spoken just before and after it.
+
+---
+
+## Models
+
+All models run locally on CPU. They are downloaded once from Hugging Face and then cached.
+
+| Step | Model | Settings |
+|---|---|---|
+| Transcription | `faster-whisper` **small.en** | int8, beam size 5, voice-activity filter, word timestamps |
+| Speaker diarization | **pyannote/speaker-diarization-community-1** | exactly 2 speakers, non-overlapping turns (needs `HF_TOKEN`) |
+| Embeddings | **BAAI/bge-small-en-v1.5** (sentence-transformers) | 384 dimensions, L2-normalized, cosine similarity |
+| Reranking | **cross-encoder/ms-marco-MiniLM-L-6-v2** (sentence-transformers) | scores the top 30 hybrid candidates |
+
+Models can be swapped in [`src/app/config.py`](src/app/config.py).
+
+### How the cross-encoder reranker works
+
+- **Semantic search** embeds the query and each segment *separately* (a bi-encoder). Segment vectors are computed once at ingest, which makes search fast over the whole index.
+- **The cross-encoder** reads the query and one segment *together* as a single input, `[query] [SEP] [segment]`, so every query word can attend to every segment word. It outputs one relevance score. This is more accurate, but nothing can be precomputed, so it runs only on a shortlist.
+- **The model** is a 6-layer MiniLM trained on MS MARCO, a large dataset of real search questions paired with the passages that answer them.
+- **In this project:**
+  1. Hybrid search produces the top 30 candidates.
+  2. The cross-encoder scores each `(query, segment text)` pair.
+  3. The results are re-sorted by that score alone.
+- **The rerank score** is the model's raw output, not a 0–1 value: higher means more relevant, and negative usually means a weak match. It is only meaningful for comparing results within the same query. It is shown next to the keyword, semantic and hybrid scores.
+- **Limits:**
+  - It can only reorder the 30 candidates; it cannot find a segment hybrid search missed.
+  - It sees only text, not who is speaking.
+  - It adds about 100 ms per search on CPU.
+- **Measured effect:** better ordering (Recall@3 +0.05, NDCG@10 +0.07) with no gain in Recall@5. See [EVALUATION.md](EVALUATION.md).
 
 ---
 
@@ -163,7 +194,7 @@ Method, results and findings are in **[EVALUATION.md](EVALUATION.md)**.
 - **PostgreSQL is the single store.** Segments, embeddings, the full-text index and the vector index all live in one database. There is no separate search engine to keep in sync.
 - **HNSW vector index.** Search uses pgvector's approximate nearest-neighbour index instead of comparing the query against every row.
 - **Score normalization before fusion.** Keyword and semantic scores are on different scales, so each list is rescaled to 0–1 before the α-weighted sum. RRF avoids the scale problem by using only ranks, and the evaluation decides which works better.
-- **Reranking only a shortlist.** A cross-encoder reads the query and the passage together and is more accurate, but it is too slow to run over everything. It re-sorts the top 30 hybrid results.
+- **Reranking only a shortlist.** The cross-encoder (`ms-marco-MiniLM-L-6-v2`) is more accurate than comparing embeddings, but too slow to run over everything. It re-sorts only the top 30 hybrid results. See [How the cross-encoder reranker works](#how-the-cross-encoder-reranker-works).
 - **Context expansion.** Each result includes the segment before and after it, so you see the question as well as the answer.
 
 ## Metrics for production
